@@ -1,0 +1,10 @@
+.timeline {
+  display: flex;
+  justify-content: center;
+}
+
+.middleLine {
+  display: inline-block;
+  height: 100vh;
+  border-left: 1.5px solid blueviolet;
+}

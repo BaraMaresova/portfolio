@@ -1,6 +1,6 @@
-/* .header {
-  display: flex;
-} */
+.header {
+  position: relative;
+}
 
 .namePhoto {
   display: flex;

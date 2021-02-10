@@ -1,8 +1,10 @@
 import React from 'react';
+import './timeline.css';
 
 export const Timeline = () => {
   return (
-  <span className="middleSpan">
-
-  </span>)
+    <div className="timeline">
+      <span className="middleLine"></span>
+    </div>
+  );
 };
