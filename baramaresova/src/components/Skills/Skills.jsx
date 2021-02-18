@@ -1,15 +1,13 @@
 import React, { useEffect } from 'react';
 import $ from 'jquery';
-
 import { SkillItem } from './SkillItem/SkillItem.jsx';
-
 import './skills.css';
 
 export const Skills = () => {
   useEffect(() => {
     const circleType = 1,
-      radius = '12em', //distance from center
-      start = -90, //shift start from 0
+      radius = '14em', //distance from center
+      start = -70, //shift start from 0
       $elements = $('.skillItem'),
       numberOfElements =
         circleType === 1 ? $elements.length : $elements.length - 1, //adj for even distro of elements when not full circle
@@ -44,6 +42,11 @@ export const Skills = () => {
       />
       <SkillItem skillName="React" details="Detaily netřeba" progress="70%" />
       <SkillItem skillName="Figma" details="Ta mě baví" progress="80%" />
+      <SkillItem
+        skillName="jQuery"
+        details="Díky tomu je tohle kruh"
+        progress="80%"
+      />
     </div>
   );
 };
