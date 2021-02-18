@@ -1,0 +1,7 @@
+.skillItem {
+  cursor: pointer;
+  position: absolute;
+  -webkit-transition: all 2s linear;
+  -moz-transition: all 2s linear;
+  transition: all 2s linear;
+}

@@ -1,0 +1,33 @@
+.header {
+  position: relative;
+}
+
+.namePhoto {
+  display: flex;
+  justify-content: center;
+}
+
+.titleName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 24px;
+  text-transform: uppercase;
+}
+
+.titlePhoto {
+  width: 160px;
+  margin: 24px;
+  border-radius: 50%;
+}
+
+.name {
+  letter-spacing: 2rem;
+  margin: 16px;
+  font-size: 2rem;
+}
+
+.surname {
+  letter-spacing: 1rem;
+}
