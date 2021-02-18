@@ -5,6 +5,7 @@ import './skillItem.css';
 export const SkillItem = (props) => {
   const [skillOpened, setSkillOpened] = useState(false);
 
+
   return (
     <>
       <div
