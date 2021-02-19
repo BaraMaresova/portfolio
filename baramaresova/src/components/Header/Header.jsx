@@ -1,7 +1,7 @@
 import React from 'react';
 import foto from '../../images/resized.jpg';
 import { Navigation } from '../Navigation/Navigation.jsx';
-import './header.css';
+import './_header.scss';
 
 export const Header = () => {
   return (
