@@ -1,33 +1,40 @@
-/* .navUrl {
-  width: 100%;
-  text-decoration: none;
-  color: black;
-  margin: 0;
-  padding: auto;
-} */
+@import '../../../scss/variables';
+@import '../../../scss/colors';
 
 .navButton {
-  height: 40px;
-  width: 100px;
+  width: $spacing * 4;
+  padding: $spacing/2;
   position: absolute;
-}
+  cursor: pointer;
+  background-color: $green-c;
+  border: 2px solid $pink-c;
+  border-radius: 8px;
+  color: $dark-c;
 
-.navButton_leftTop {
-  left:16px;
-  top:16px;
-}
+  &:hover,
+  &:focus {
+    background-color: $pink-c;
+    border: 2px solid $green-c;
+    color: $light-c;
+  }
 
-.navButton_rightTop {
-  right:16px;
-  top:16px;
-}
+  &_leftTop {
+    left: $spacing/2;
+    top: $spacing/2;
+  }
 
-.navButton_leftBottom {
-  left:16px;
-  bottom:16px;
-}
+  &_rightTop {
+    right: $spacing/2;
+    top: $spacing/2;
+  }
 
-.navButton_rightBottom {
-  right:16px;
-  bottom:16px;
+  &_leftBottom {
+    left: $spacing/2;
+    bottom: $spacing/2;
+  }
+
+  &_rightBottom {
+    right: $spacing/2;
+    bottom: $spacing/2;
+  }
 }
