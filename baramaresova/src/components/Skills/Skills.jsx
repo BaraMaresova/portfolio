@@ -1,6 +1,6 @@
 import React from 'react';
 import { SkillItem } from './SkillItem/SkillItem.jsx';
-import './_skills.scss';
+import './skills.scss';
 
 export const Skills = () => {
   return (

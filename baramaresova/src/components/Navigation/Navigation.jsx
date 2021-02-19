@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavButton } from './NavButton/NavButton.jsx';
-import './_navigation.scss';
+import './navigation.scss';
 
 export const Navigation = () => {
   return (
