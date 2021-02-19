@@ -1,0 +1,46 @@
+@import '../../../scss/variables';
+@import '../../../scss/colors';
+
+.referenceItem {
+  display: flex;
+}
+
+.referencePointer {
+  display: flex;
+  align-items: center;
+}
+
+.referenceLine {
+  display: inline-block;
+  width: $spacing * 4;
+  border-top: 2px solid $pink-c;
+}
+
+.reference {
+  display: flex;
+  margin: 8px;
+
+  &--opened {
+    flex-direction: column;
+    width: $spacing * 14;
+    border: 2px solid $green-c;
+    border-radius: 8px;
+    padding: $spacing;
+  }
+
+  &Image {
+    width: $spacing * 5;
+    margin: 0 8px 8px 0;
+
+    &--opened {
+      width: $spacing * 14;
+    }
+  }
+
+  &Name {
+    &--opened {
+      text-transform: uppercase;
+      color: #32beaf;
+    }
+  }
+}

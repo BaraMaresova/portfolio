@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import circle from '../../../images/circle.svg';
-import './skillItem.css';
+import './skillItem.scss';
 
 export const SkillItem = (props) => {
   const [skillOpened, setSkillOpened] = useState(false);
-
 
   return (
     <>

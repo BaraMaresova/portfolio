@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import './navButton.css';
+import './navButton.scss';
 
 export const NavButton = (props) => {
   const { push } = useHistory();
