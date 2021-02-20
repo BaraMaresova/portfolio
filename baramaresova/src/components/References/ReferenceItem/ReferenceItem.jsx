@@ -7,10 +7,6 @@ export const ReferenceItem = (props) => {
 
   return (
     <div className="referenceItem">
-      <div className="referencePointer">
-        <span className={props.line_length}></span>
-        <img src={circleRef} alt="kolečko" />
-      </div>
       <div
         className={
           referenceOpened ? 'reference reference--opened' : 'reference'
@@ -40,6 +36,10 @@ export const ReferenceItem = (props) => {
         {referenceOpened && (
           <span className="referenceDetails">{props.ref_details}</span>
         )}
+      </div>
+      <div className="referencePointer">
+        <img src={circleRef} alt="kolečko" />
+        <span className={props.r_line_length}></span>
       </div>
     </div>
   );

@@ -1,0 +1,18 @@
+.main_left {
+  display: flex;
+  position: relative;
+}
+
+.referencesTitle {
+  display: block;
+  text-transform: uppercase;
+  position: absolute;
+  left: 8;
+  animation-name: rotation;
+  animation-duration: 2s;
+}
+/* 
+@keyframes rotation {
+  transform: rotate(90deg);
+}
+ */

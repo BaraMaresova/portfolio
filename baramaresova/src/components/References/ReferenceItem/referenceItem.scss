@@ -3,6 +3,7 @@
 
 .referenceItem {
   display: flex;
+  justify-content: flex-end;
 }
 
 .referencePointer {
@@ -46,7 +47,7 @@
   &Name {
     &--opened {
       text-transform: uppercase;
-      color: #32beaf;
+      color: $green-c;
     }
   }
 }

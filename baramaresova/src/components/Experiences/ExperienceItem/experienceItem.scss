@@ -1,0 +1,69 @@
+@import '../../../scss/variables';
+@import '../../../scss/colors';
+
+.experienceItem {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.experiencePointer {
+  display: flex;
+  align-items: center;
+}
+
+.experienceLine {
+  display: inline-block;
+  width: $spacing * 8;
+  border-top: 2px solid $green-c;
+  &-short {
+    width: $spacing * 4;
+  }
+  &-long {
+    width: $spacing * 12;
+  }
+}
+
+.experience {
+  display: flex;
+  margin: 8px;
+  align-items: center;
+
+  &--opened {
+    flex-direction: column;
+    width: $spacing * 14;
+    border: 2px solid $pink-c;
+    border-radius: 8px;
+    padding: $spacing;
+  }
+
+  &Name {
+    &--opened {
+      text-transform: uppercase;
+      color: $pink-c;
+    }
+  }
+
+  &Date {
+    border: 1.5px solid $pink-c;
+    border-radius: 8px;
+    padding: 8px;
+    margin-right: 8px;
+    &--opened {
+      text-transform: uppercase;
+      color: $pink-c;
+      border: none;
+      padding: 0;
+    }
+  }
+
+  &Logo {
+    width: $spacing * 6;
+    margin-left: 16px;
+  }
+
+  &NameLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
