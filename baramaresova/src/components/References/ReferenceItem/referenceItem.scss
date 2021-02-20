@@ -3,6 +3,7 @@
 
 .referenceItem {
   display: flex;
+  justify-content: flex-end;
 }
 
 .referencePointer {
@@ -12,8 +13,14 @@
 
 .referenceLine {
   display: inline-block;
-  width: $spacing * 4;
+  width: $spacing * 8;
   border-top: 2px solid $pink-c;
+  &-short {
+    width: $spacing * 4;
+  }
+  &-long {
+    width: $spacing * 12;
+  }
 }
 
 .reference {
@@ -40,7 +47,7 @@
   &Name {
     &--opened {
       text-transform: uppercase;
-      color: #32beaf;
+      color: $green-c;
     }
   }
 }
