@@ -8,7 +8,7 @@ export const ReferenceItem = (props) => {
   return (
     <div className="referenceItem">
       <div className="referencePointer">
-        <span className="referenceLine"></span>
+        <span className={props.line_length}></span>
         <img src={circleRef} alt="kolečko" />
       </div>
       <div
