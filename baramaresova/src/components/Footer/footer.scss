@@ -1,0 +1,24 @@
+@import '../../scss/colors';
+@import '../../scss/variables';
+
+.footer {
+  height: 120px;
+  &_div {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  &_icon {
+    height: $spacing;
+    width: $spacing;
+    margin: $spacing/2;
+  }
+
+}

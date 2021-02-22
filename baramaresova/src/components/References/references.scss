@@ -1,18 +1,30 @@
+@import '../../scss/colors';
+
 .main_left {
   display: flex;
-  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  height: 90%;
+  width: 100%;
 }
 
-.referencesTitle {
-  display: block;
-  text-transform: uppercase;
-  position: absolute;
-  left: 8;
-  animation-name: rotation;
-  animation-duration: 2s;
+.references {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 70%;
+  height: 100%;
+
+  &Title {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.8rem;
+    left: 0;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    background-color: $green-c;
+    padding: 4px;
+    border-radius: 8px;
+  }
 }
-/* 
-@keyframes rotation {
-  transform: rotate(90deg);
-}
- */

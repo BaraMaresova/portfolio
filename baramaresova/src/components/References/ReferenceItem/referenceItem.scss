@@ -4,6 +4,8 @@
 .referenceItem {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
 }
 
 .referencePointer {
@@ -13,13 +15,13 @@
 
 .referenceLine {
   display: inline-block;
-  width: $spacing * 8;
+  width: $line_length;
   border-top: 2px solid $pink-c;
   &-short {
-    width: $spacing * 4;
+    width: $line_length * 4;
   }
   &-long {
-    width: $spacing * 12;
+    width: $line_length * 10;
   }
 }
 
