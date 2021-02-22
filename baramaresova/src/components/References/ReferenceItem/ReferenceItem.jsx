@@ -4,15 +4,18 @@ import './referenceItem.scss';
 
 export const ReferenceItem = (props) => {
   const [referenceOpened, setReferenceOpened] = useState(false);
-
+ 
   return (
     <div className="referenceItem">
       <div
         className={
           referenceOpened ? 'reference reference--opened' : 'reference'
         }
-        onClick={() => {
-          setReferenceOpened(!referenceOpened);
+        onMouseEnter={() => {
+          setReferenceOpened(referenceOpened === true);
+        }}
+        onMouseLeave={() => {
+          setReferenceOpened(referenceOpened === false);
         }}
       >
         <img
