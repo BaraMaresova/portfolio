@@ -4,7 +4,7 @@ import './referenceItem.scss';
 
 export const ReferenceItem = (props) => {
   const [referenceOpened, setReferenceOpened] = useState(false);
- 
+
   return (
     <div className="referenceItem">
       <div
@@ -27,15 +27,17 @@ export const ReferenceItem = (props) => {
           src={props.ref_src}
           alt="printscreen referenčního webu"
         />
-        <h3
-          className={
-            referenceOpened
-              ? 'referenceName referenceName--opened'
-              : 'referenceName'
-          }
-        >
-          {props.ref_name}
-        </h3>
+        {referenceOpened ? (
+          <h3 className="referenceName referenceName--opened">
+            {' '}
+            <a href={props.ref_href} target="blank">
+              {props.ref_name}
+            </a>
+          </h3>
+        ) : (
+          <h3 className="referenceName">{props.ref_name}</h3>
+        )}
+
         {referenceOpened && (
           <span className="referenceDetails">{props.ref_details}</span>
         )}

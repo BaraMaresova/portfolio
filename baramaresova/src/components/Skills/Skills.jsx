@@ -34,7 +34,7 @@ export const Skills = () => {
   return (
     <section className="skills_section">
       <div className="skills">
-        <SkillItem skillName="HTML" details="Detaily netřeba" progress="90%" />
+        <SkillItem skillName="HTML" details="Detaily netřeba"  />
         <SkillItem skillName="CSS" details="Detaily netřeba" progress="80%" />
         <SkillItem
           skillName="Javascript"
