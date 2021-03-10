@@ -28,13 +28,16 @@
 .reference {
   display: flex;
   margin: 8px;
-
+  &Details {
+    color: $dark-c;
+  }
   &--opened {
     flex-direction: column;
     width: $spacing * 14;
     border: 2px solid $green-c;
     border-radius: 8px;
     padding: $spacing;
+    background-color: $light-c;
   }
 
   &Image {
