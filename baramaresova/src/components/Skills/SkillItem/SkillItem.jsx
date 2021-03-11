@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import circle from '../../../images/circle.svg';
-import CircularStatic from '../../ProgressBar/ProgressBar';
+/* import circle from '../../../images/circle.svg';
+ */ import CircularStatic from '../../ProgressBar/ProgressBar';
 import './skillItem.scss';
 
 export const SkillItem = (props) => {
@@ -14,12 +14,13 @@ export const SkillItem = (props) => {
           setSkillOpened(!skillOpened);
         }}
       >
-        <img className="skillItem_img" src={circle} alt="Circle"></img>
+        <CircularStatic number={props.progress} />
+
+        {/* <img className="skillItem_img" src={circle} alt="Circle"></img> */}
         <span className="skillItem_name">{props.skillName}</span>
         {skillOpened && (
           <div className="skillItem_opened">
             <span className="skillItem_details">{props.details}</span>
-            <CircularStatic value="70" />
           </div>
         )}
       </div>

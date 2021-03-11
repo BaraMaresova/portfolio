@@ -34,17 +34,17 @@ export const Skills = () => {
   return (
     <section className="skills_section">
       <div className="skills">
-        <SkillItem skillName="HTML" details="Detaily netřeba"  />
-        <SkillItem skillName="CSS" details="Detaily netřeba" progress="80%" />
+        <SkillItem skillName="HTML" details="Detaily netřeba" />
+        <SkillItem skillName="CSS" details="Detaily netřeba" progress="80" />
         <SkillItem
           skillName="Javascript"
           details="Detaily netřeba"
-          progress="50%"
+          progress="50"
         />
-        <SkillItem skillName="React" details="Detaily netřeba" progress="70%" />
-        <SkillItem skillName="Figma" details="Ta mě baví" progress="80%" />
-        <SkillItem skillName="jQuery" details="Ta mě baví" progress="80%" />
-        <SkillItem skillName="SASS" details="Ta mě baví" progress="80%" />
+        <SkillItem skillName="React" details="Detaily netřeba" progress="70" />
+        <SkillItem skillName="Figma" details="Ta mě baví" progress="40" />
+        <SkillItem skillName="jQuery" details="Ta mě baví" progress="80" />
+        <SkillItem skillName="SASS" details="Ta mě baví" progress="80" />
       </div>
     </section>
   );
