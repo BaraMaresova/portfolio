@@ -1,17 +1,6 @@
 @import '../../scss/variables';
 @import '../../scss/colors';
 
-.progressBar {
-  position: relative;
-  height: $spacing;
-  width: 350px;
-  border-radius: 8px;
-  border: 1px solid $light-c;
-}
-
-.filler {
-  background-color: pink;
-  height: 100%;
-  border-radius: inherit;
-  transition: width 0.2s ease-in;
+.textSecondary {
+  color: $light-c;
 }
