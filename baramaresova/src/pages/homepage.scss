@@ -1,4 +1,5 @@
 @import '../scss/colors';
+@import '../scss/typography';
 
 body {
   background-image: url('../images/background.png');
@@ -9,4 +10,5 @@ body {
   color: $light-c;
   max-width: 1400px;
   margin: 0 auto;
+  font-family: $base-f;
 }

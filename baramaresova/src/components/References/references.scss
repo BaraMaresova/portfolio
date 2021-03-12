@@ -1,11 +1,13 @@
 @import '../../scss/colors';
+@import '../../scss/typography';
 
 .main_left {
+  flex: 1 1 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 90%;
-  width: 100%;
+  max-width: 100%;
 }
 
 .references {
@@ -26,6 +28,7 @@
     background-color: $green-c;
     padding: 4px;
     border-radius: 8px;
+    font-family: $title-f;
   }
   a {
     text-decoration: none;

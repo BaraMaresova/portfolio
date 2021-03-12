@@ -1,5 +1,6 @@
 @import '../../scss/colors';
 @import '../../scss/variables';
+@import '../../scss/typography';
 
 .footer {
   height: 120px;
@@ -20,5 +21,7 @@
     width: $spacing;
     margin: $spacing/2;
   }
-
+  &_span {
+    font-family: $title-f;
+  }
 }

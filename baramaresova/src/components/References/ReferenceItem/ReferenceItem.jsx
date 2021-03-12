@@ -11,10 +11,12 @@ export const ReferenceItem = (props) => {
         className={
           referenceOpened ? 'reference reference--opened' : 'reference'
         }
-        onMouseEnter={() => {
+        onMouseOver={(e) => {
+          e.preventDefault();
           setReferenceOpened(referenceOpened === true);
         }}
-        onMouseLeave={() => {
+        onMouseOut={(e) => {
+          e.preventDefault();
           setReferenceOpened(referenceOpened === false);
         }}
       >

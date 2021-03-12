@@ -8,7 +8,7 @@ export const References = () => {
   return (
     <div className="main_left">
       <h2 className="referencesTitle">Reference</h2>
-      <div className="references">
+      <div className="references" id="references">
         <ReferenceItem
           ref_src={test_reference}
           ref_name="Testovací reference 1"

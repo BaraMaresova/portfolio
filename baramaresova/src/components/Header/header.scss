@@ -17,6 +17,7 @@
   justify-content: center;
   margin: 24px;
   text-transform: uppercase;
+  font-family: $title-f;
 }
 
 .titlePhoto {
@@ -28,9 +29,9 @@
 .name {
   letter-spacing: 2rem;
   margin: 16px;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .surname {
-  letter-spacing: 1rem;
+  letter-spacing: 1.2rem;
 }
