@@ -1,28 +1,18 @@
-import React, { useState } from 'react';
-/* import circle from '../../../images/circle.svg';
- */ import CircularStatic from '../../ProgressBar/ProgressBar';
+import React from 'react';
+import CircularStatic from '../../ProgressBar/ProgressBar';
 import './skillItem.scss';
 
 export const SkillItem = (props) => {
-  const [skillOpened, setSkillOpened] = useState(false);
-
   return (
     <>
-      <div
-        className="skillItem"
-        onClick={() => {
-          setSkillOpened(!skillOpened);
-        }}
-      >
-        <CircularStatic number={props.progress} />
-
-        {/* <img className="skillItem_img" src={circle} alt="Circle"></img> */}
+      <div className="skillItem">
+        <CircularStatic value={props.progress} />
         <span className="skillItem_name">{props.skillName}</span>
-        {skillOpened && (
-          <div className="skillItem_opened">
-            <span className="skillItem_details">{props.details}</span>
+        <div className="skillItem_opened">
+          <div className="skillItem_details">
+            <p>{props.details}</p>
           </div>
-        )}
+        </div>
       </div>
     </>
   );

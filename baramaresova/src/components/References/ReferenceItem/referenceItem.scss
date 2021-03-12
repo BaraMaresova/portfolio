@@ -1,11 +1,11 @@
 @import '../../../scss/variables';
 @import '../../../scss/colors';
+@import '../../../scss/typography';
 
 .referenceItem {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  cursor: pointer;
 }
 
 .referencePointer {
@@ -28,6 +28,8 @@
 .reference {
   display: flex;
   margin: 8px;
+  cursor: pointer;
+
   &Details {
     color: $dark-c;
   }
@@ -50,9 +52,15 @@
   }
 
   &Name {
+    font-family: $headlines-f;
+    text-transform: uppercase;
+    font-weight: 300;
+
     &--opened {
       text-transform: uppercase;
       color: $green-c;
+      font-weight: 600;
+
     }
   }
 }

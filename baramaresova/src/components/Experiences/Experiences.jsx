@@ -8,7 +8,7 @@ export const Experiences = () => {
     <div className="main-right">
       <h2 className="experiencesTitle">Zkušenosti</h2>
 
-      <div className="experiences">
+      <div className="experiences" id="experiences">
         <ExperienceItem
           e_line_length="experienceLine experienceLine-long"
           exp_date="2020"

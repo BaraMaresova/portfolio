@@ -15,10 +15,12 @@ export const ExperienceItem = (props) => {
         className={
           experienceOpened ? 'experience experience--opened' : 'experience'
         }
-        onMouseEnter={() => {
+        onMouseEnter={(e) => {
+          e.preventDefault();
           setExperienceOpened(experienceOpened === true);
         }}
-        onMouseLeave={() => {
+        onMouseOut={(e) => {
+          e.preventDefault();
           setExperienceOpened(experienceOpened === false);
         }}
       >

@@ -33,8 +33,12 @@ export const Skills = () => {
 
   return (
     <section className="skills_section">
-      <div className="skills">
-        <SkillItem skillName="HTML" details="Detaily netřeba" />
+      <div className="skills" id="skills">
+        <SkillItem
+          skillName="HTML"
+          details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          progress="90"
+        />
         <SkillItem skillName="CSS" details="Detaily netřeba" progress="80" />
         <SkillItem
           skillName="Javascript"
