@@ -1,14 +1,11 @@
 import React from 'react';
 import { NavButton } from './NavButton/NavButton.jsx';
+import { About } from '../Dialog/About.jsx';
 
 export const Navigation = () => {
   return (
     <div className="navigation">
-      <NavButton
-        className="navButton navButton_leftTop"
-        id="about"
-        navItem="O mně"
-      />
+      <About className="navButton navButton_leftTop" navItem="O mně" />
       <NavButton
         className="navButton navButton_leftBottom"
         id="references"

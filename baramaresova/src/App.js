@@ -1,12 +1,12 @@
 import React from 'react';
-import { HashRouter as Router, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { Homepage } from '../src/pages/Homepage.jsx';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Homepage />
+        <Route path="/" component={Homepage} />
       </Switch>
     </Router>
   );

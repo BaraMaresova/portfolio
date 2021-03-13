@@ -3,7 +3,7 @@
 .skillItem {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   overflow: hidden;
   -webkit-transition: all 2s linear;
@@ -18,6 +18,8 @@
   &_opened {
     height: 350px;
     width: 350px;
+    top: 15%;
+    left: 4%;
     position: relative;
     margin: auto;
     display: none;
@@ -27,7 +29,7 @@
     font-family: $base-f;
     height: 100%;
     width: 100%;
-    position: relative;
+    position: absolute;
 
     & p {
       height: 100%;

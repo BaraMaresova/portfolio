@@ -31,6 +31,9 @@
   cursor: pointer;
 
   &--opened {
+    display: none;
+    margin: 8px;
+    align-items: center;
     flex-direction: column;
     width: $spacing * 14;
     border: 2px solid $pink-c;
@@ -44,6 +47,7 @@
     font-weight: 300;
 
     &--opened {
+      font-family: $headlines-f;
       text-transform: uppercase;
       color: $pink-c;
       font-weight: 600;
@@ -59,6 +63,10 @@
     font-weight: 300;
 
     &--opened {
+      border: 1.5px solid $pink-c;
+      font-family: $headlines-f;
+      margin-right: 8px;
+      border-radius: 8px;
       text-transform: uppercase;
       color: $pink-c;
       border: none;
@@ -76,5 +84,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  &:hover {
+    display: none;
+  }
+  &:hover + &--opened {
+    display: flex;
   }
 }
