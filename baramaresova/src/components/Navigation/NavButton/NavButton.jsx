@@ -12,3 +12,9 @@ export const NavButton = (props) => {
     </button>
   );
 };
+/*
+<button className={props.className}></button> 
+<Link to =`/${props.id}`/>
+      {props.navItem}
+      </Link>
+    </button>*/
