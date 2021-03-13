@@ -18,8 +18,8 @@
   &_opened {
     height: 350px;
     width: 350px;
-    top: 20%;
-    left: 5%;
+    top: 15%;
+    left: 4%;
     position: relative;
     margin: auto;
     display: none;
@@ -29,7 +29,7 @@
     font-family: $base-f;
     height: 100%;
     width: 100%;
-    position: relative;
+    position: absolute;
 
     & p {
       height: 100%;
