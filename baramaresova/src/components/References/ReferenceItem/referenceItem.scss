@@ -30,16 +30,17 @@
   margin: 8px;
   cursor: pointer;
 
-  &Details {
-    color: $dark-c;
+  &Details--opened {
+    color: $light-c;
   }
   &--opened {
+    display: none;
+    margin: 8px;
     flex-direction: column;
     width: $spacing * 14;
     border: 2px solid $green-c;
     border-radius: 8px;
     padding: $spacing;
-    background-color: $light-c;
   }
 
   &Image {
@@ -47,6 +48,7 @@
     margin: 0 8px 8px 0;
 
     &--opened {
+      margin: 0 8px 8px 0;
       width: $spacing * 14;
     }
   }
@@ -57,10 +59,17 @@
     font-weight: 300;
 
     &--opened {
+      font-family: $headlines-f;
       text-transform: uppercase;
       color: $green-c;
       font-weight: 600;
-
     }
+  }
+
+  &:hover {
+    display: none;
+  }
+  &:hover + &--opened {
+    display: flex;
   }
 }
