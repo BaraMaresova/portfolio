@@ -7,9 +7,9 @@ import './references.scss';
 
 export const References = () => {
   return (
-    <div className="main_left">
+    <div id="references" className="main_left">
       <h2 className="referencesTitle">Reference</h2>
-      <div className="references" id="references">
+      <div className="references" >
         <ReferenceItem
           ref_src={test_reference}
           ref_src_opened={test_reference}
