@@ -32,8 +32,8 @@ export const Skills = () => {
   }, []);
 
   return (
-    <section className="skills_section">
-      <div className="skills" id="skills">
+    <section id="skills" className="skills_section">
+      <div className="skills" >
         <SkillItem
           skillName="HTML"
           details="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."

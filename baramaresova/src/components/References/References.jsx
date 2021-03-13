@@ -1,15 +1,15 @@
 import React from 'react';
 import { ReferenceItem } from '../References/ReferenceItem/ReferenceItem';
 import test_reference from '../../images/placeholder.png';
-import Moninvo_ref from '../../images/g611.png';
+import moninvo_gif from '../../images/moninvo_gif.gif';
 import moninvo from '../../images/moninvo.png';
 import './references.scss';
 
 export const References = () => {
   return (
-    <div className="main_left">
+    <div id="references" className="main_left">
       <h2 className="referencesTitle">Reference</h2>
-      <div className="references" id="references">
+      <div className="references" >
         <ReferenceItem
           ref_src={test_reference}
           ref_src_opened={test_reference}
@@ -26,7 +26,7 @@ export const References = () => {
         />
         <ReferenceItem
           ref_src={moninvo}
-          ref_src_opened={Moninvo_ref}
+          ref_src_opened={moninvo_gif}
           ref_name={'Moninvo'}
           ref_href="https://www.moninvo.cz/#/"
           ref_details="Aplikace na monitorování nákladů, umožňuje nahrání faktur ve formátu pdf, přečte data z faktury a zobrazí je v grafu a tabulce. Projekt získal ocenění Projekt s nejvyšší technickou úrovní během studia Digitální akademie - Web od Czechitas."
