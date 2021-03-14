@@ -1,6 +1,7 @@
 import React from 'react';
 import foto from '../../images/resized.jpg';
 import { Navigation } from '../Navigation/Navigation.jsx';
+import { Statement } from '../Statement/Statement.jsx';
 import './header.scss';
 
 export const Header = () => {
@@ -14,6 +15,7 @@ export const Header = () => {
         </span>
       </div>
       <Navigation />
+      <Statement />
     </div>
   );
 };

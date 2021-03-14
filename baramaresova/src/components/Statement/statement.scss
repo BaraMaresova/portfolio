@@ -1,0 +1,14 @@
+@import '../../scss/variables';
+@import '../../scss/colors';
+@import '../../scss/typography';
+
+.statement_text {
+  color: $pink-c;
+  font-family: $headlines-f;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.statement_div {
+  margin: 0 auto;
+}
