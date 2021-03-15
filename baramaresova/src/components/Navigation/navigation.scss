@@ -1,0 +1,12 @@
+@import '../../scss/variables';
+@import '../../scss/colors';
+@import '../../scss/typography';
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: $spacing;
+  width: 80%;
+  margin: 0 auto;
+}

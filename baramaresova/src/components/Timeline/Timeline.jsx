@@ -1,10 +1,10 @@
 import React from 'react';
 import './timeline.scss';
 
-export const Timeline = () => {
+export const Timeline = (props) => {
   return (
-    <div className="timeline">
-      <div className="middleLine"></div>
+    <div className={props.timelineClass}>
+      <div className={props.middleLineClass}></div>
     </div>
   );
 };

@@ -16,9 +16,9 @@ export const About = (props) => {
 
   return (
     <div className="dialog">
-      <button className={props.className} onClick={handleClickOpen}>
+      <div className="navButton" onClick={handleClickOpen}>
         {props.navItem}
-      </button>
+      </div>
       <Dialog
         onClose={handleClose}
         aria-labelledby="customized-dialog-title"

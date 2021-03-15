@@ -1,6 +1,6 @@
 @import '../../scss/colors';
 
-.timeline {
+.timeline_vertical {
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -9,7 +9,7 @@
   height: 100%;
 }
 
-.middleLine {
+.middleLine_vertical {
   width: 100%;
   height: 90%;
   background: linear-gradient(
@@ -18,6 +18,29 @@
     rgba(247, 241, 217, 1) 14%,
     rgba(252, 246, 220, 1) 49%,
     rgba(255, 250, 222, 1) 82%,
+    rgba(32, 0, 80, 1) 100%
+  );
+}
+
+.timeline_horizontal {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: auto;
+  min-width: 100%;
+  height: 2.5px;
+}
+
+.middleLine_horizontal {
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(32, 0, 80, 1) 0%,
+    rgba(132, 39, 98, 1) 16%,
+    rgba(249, 85, 118, 1) 52%,
+    rgba(53, 8, 84, 1) 100%,
     rgba(32, 0, 80, 1) 100%
   );
 }

@@ -3,50 +3,31 @@
 @import '../../../scss/typography';
 
 .navButton {
-  width: $spacing * 4;
-  padding: $spacing/2;
-  position: absolute;
+  min-width: $spacing * 4;
+  padding: 8px;
   cursor: pointer;
-  background-color: $green-c;
-  border: 2px solid $pink-c;
+  /*   border-bottom: 1px solid $pink-c;
+ */
   border-radius: 8px;
-  color: $dark-c;
-  font-family: $headlines-f;
+  color: $green-c;
+  font-family: $title-f;
   font-weight: 300;
   text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
 
   & a {
     text-decoration: none;
     color: inherit;
-    font-size: 14px;
-    font-family: $headlines-f;
+    font-size: 18px;
+    font-family: $title-f;
     text-align: center;
   }
 
   &:hover,
   &:focus {
     background-color: $pink-c;
-    border: 2px solid $green-c;
     color: $light-c;
-  }
-
-  &_leftTop {
-    left: $spacing/2;
-    top: $spacing/2;
-  }
-
-  &_rightTop {
-    right: $spacing/2;
-    top: $spacing/2;
-  }
-
-  &_leftBottom {
-    left: $spacing/2;
-    bottom: $spacing/2;
-  }
-
-  &_rightBottom {
-    right: $spacing/2;
-    bottom: $spacing/2;
+    padding: 8px;
   }
 }

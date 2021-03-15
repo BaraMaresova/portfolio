@@ -14,8 +14,8 @@ export const Header = () => {
           <span className="surname">Marešová</span>
         </span>
       </div>
-      <Navigation />
       <Statement />
+      <Navigation />
     </div>
   );
 };

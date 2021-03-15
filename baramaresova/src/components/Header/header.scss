@@ -1,8 +1,9 @@
 @import '../../scss/typography';
 @import '../../scss/colors';
+@import '../../scss/variables';
 
 .header {
-  position: relative;
+  margin-bottom: $spacing * 2;
 }
 
 .namePhoto {

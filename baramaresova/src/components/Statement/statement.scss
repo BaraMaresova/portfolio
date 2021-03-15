@@ -3,12 +3,14 @@
 @import '../../scss/typography';
 
 .statement_text {
-  color: $pink-c;
+  color: $light-c;
   font-family: $headlines-f;
   font-weight: 300;
   font-style: italic;
+  text-align: center;
+  margin: 0;
 }
 
 .statement_div {
-  margin: 0 auto;
+  margin: $spacing/2 auto $spacing auto;
 }
