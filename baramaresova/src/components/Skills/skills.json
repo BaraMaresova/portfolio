@@ -1,0 +1,42 @@
+{
+  "HTML": {
+    "progress": "90",
+    "details": "Lorem ipsum dolor sit amet.",
+    "type": "programming"
+  },
+  "CSS": {
+    "progress": "80",
+    "details": "Lorem ipsum dolor sit amet.",
+    "type": "other"
+  },
+  "JavaScript": {
+    "progress": "50",
+    "details": "Lorem ipsum dolor sit amet.",
+    "type": "programming"
+  },
+  "React": {
+    "progress": "80",
+    "details": "Lorem ipsum dolor sit amet.",
+    "type": "programming"
+  },
+  "jQuery": {
+    "progress": "70",
+    "details": "Lorem ipsum dolor sit amet.",
+    "type": "programming"
+  },
+  "SASS": {
+    "progress": "90",
+    "details": "Lorem ipsum dolor sit amet.",
+    "type": "other"
+  },
+  "Figma": {
+    "progress": "80",
+    "details": "Lorem ipsum dolor sit amet.",
+    "type": "other"
+  },
+  "Adobe Fresco": {
+    "progress": "70",
+    "details": "Lorem ipsum dolor sit amet.",
+    "type": "other"
+  }
+}
