@@ -8,7 +8,7 @@ export const Main = () => {
   return (
     <div className="main">
       <References />
-      <Timeline />
+      <Timeline timelineClass="timeline_vertical" middleLineClass="middleLine_vertical"/>
       <Experiences />
     </div>
   );

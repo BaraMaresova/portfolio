@@ -1,0 +1,16 @@
+@import '../../scss/variables';
+@import '../../scss/colors';
+@import '../../scss/typography';
+
+.statement_text {
+  color: $light-c;
+  font-family: $headlines-f;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+}
+
+.statement_div {
+  margin: $spacing/2 auto $spacing auto;
+}

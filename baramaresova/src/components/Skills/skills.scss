@@ -1,10 +1,33 @@
+@import '../../scss/colors';
+@import '../../scss/typography';
+@import '../../scss/variables';
+
 .skills_section {
   height: 450px;
+  display: flex;
 }
 
 .skills {
-  position: relative;
   height: 100%;
   margin: 0;
   padding: 0;
+  position: relative;
+}
+
+.skillsTitle {
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  font-family: $title-f;
+  background-color: $purple-c;
+  border-radius: 50%;
+  min-width: $spacing * 15;
+  min-height: $spacing * 15;
+  align-self: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & h2 {
+    margin: 0;
+  }
 }

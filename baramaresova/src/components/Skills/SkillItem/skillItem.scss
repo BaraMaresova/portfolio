@@ -1,18 +1,18 @@
 @import '../../../scss/typography';
+@import '../../../scss/variables';
+@import '../../../scss/colors';
 
 .skillItem {
   cursor: pointer;
+  width: 150px;
+  height: 75px;
   position: absolute;
-  top: 40%;
-  left: 50%;
-  overflow: hidden;
-  -webkit-transition: all 2s linear;
-  -moz-transition: all 2s linear;
-  transition: all 2s linear;
 
   &_name {
     font-family: $headlines-f;
     font-weight: 300;
+    font-size: 20px;
+    margin-left: $spacing/2;
   }
 
   &_opened {
@@ -36,51 +36,9 @@
       padding: 0;
       text-align: center;
       line-height: 1.5;
-
-      &::before {
-        content: '';
-        float: right;
-        height: 100%;
-        width: 50%;
-        shape-outside: polygon(
-          2% 0%,
-          100% 0%,
-          100% 100%,
-          2% 100%,
-          50% 94%,
-          76.6% 82.7%,
-          94% 65.6%,
-          100% 50%,
-          94% 32.6%,
-          76.6% 17.3%,
-          50% 6%
-        );
-        shape-margin: 7%;
-      }
     }
-
-    &::before {
-      content: '';
-      float: left;
-      height: 100%;
-      width: 50%;
-      shape-outside: polygon(
-        0 0,
-        98% 0,
-        50% 6%,
-        23.4% 17.3%,
-        6% 32.6%,
-        0 50%,
-        6% 65.6%,
-        23.4% 82.7%,
-        50% 94%,
-        98% 100%,
-        0 100%
-      );
-      shape-margin: 7%;
+    &:hover + &_opened {
+      display: block;
     }
-  }
-  &:hover + &_opened {
-    display: block;
   }
 }
