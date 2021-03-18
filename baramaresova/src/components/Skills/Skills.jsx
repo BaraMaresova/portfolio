@@ -4,6 +4,9 @@ import $ from 'jquery';
 import './skills.scss';
 
 export const Skills = () => {
+
+/*   const top_position = 
+ */
   return (
     <section id="skills" className="skills_section">
       <div className="skills"></div>
