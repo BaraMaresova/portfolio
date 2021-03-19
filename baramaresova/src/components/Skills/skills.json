@@ -1,42 +1,42 @@
-{
-  "HTML": {
+[
+  {
+    "skill_name": "HTML",
     "progress": "90",
-    "details": "Lorem ipsum dolor sit amet.",
-    "type": "programming"
+    "details": "Lorem ipsum dolor sit amet."
   },
-  "CSS": {
+  {
+    "skill_name": "CSS",
     "progress": "80",
-    "details": "Lorem ipsum dolor sit amet.",
-    "type": "other"
+    "details": "Lorem ipsum dolor sit amet."
   },
-  "JavaScript": {
+  {
+    "skill_name": "JavaScript",
     "progress": "50",
-    "details": "Lorem ipsum dolor sit amet.",
-    "type": "programming"
+    "details": "Lorem ipsum dolor sit amet."
   },
-  "React": {
+  {
+    "skill_name": "React",
     "progress": "80",
-    "details": "Lorem ipsum dolor sit amet.",
-    "type": "programming"
+    "details": "Lorem ipsum dolor sit ame."
   },
-  "jQuery": {
+  {
+    "skill_name": "jQuery",
     "progress": "70",
-    "details": "Lorem ipsum dolor sit amet.",
-    "type": "programming"
+    "details": "Lorem ipsum dolor sit amet."
   },
-  "SASS": {
+  {
+    "skill_name": "SASS",
     "progress": "90",
-    "details": "Lorem ipsum dolor sit amet.",
-    "type": "other"
+    "details": "Lorem ipsum dolor sit amet."
   },
-  "Figma": {
+  {
+    "skill_name": "Figma",
     "progress": "80",
-    "details": "Lorem ipsum dolor sit amet.",
-    "type": "other"
+    "details": "Lorem ipsum dolor sit amet."
   },
-  "Adobe Fresco": {
+  {
+    "skill_name": "Adobe Fresco",
     "progress": "70",
-    "details": "Lorem ipsum dolor sit amet.",
-    "type": "other"
+    "details": "Lorem ipsum dolor sit amet."
   }
-}
+]

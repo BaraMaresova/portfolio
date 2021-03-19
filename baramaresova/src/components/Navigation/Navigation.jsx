@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavButton } from './NavButton/NavButton.jsx';
-import { About_sb } from '../Dialog/About_sb.jsx';
+import { About } from '../Dialog/About.jsx';
 import { Timeline } from '../Timeline/Timeline.jsx';
 import './navigation.scss';
 
@@ -8,7 +8,7 @@ export const Navigation = () => {
   return (
     <>
       <div className="navigation">
-        <About_sb navItem="O mně" />
+        <About navItem="O mně" />
         <NavButton id="references" navItem="Reference" />{' '}
         <NavButton id="experiences" navItem="Zkušenosti" />
         <NavButton id="skills" navItem="Dovednosti" />
