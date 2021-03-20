@@ -2,41 +2,41 @@
   {
     "skill_name": "HTML",
     "progress": "90",
-    "details": "Lorem ipsum dolor sit amet."
+    "details": "Front-end"
   },
   {
     "skill_name": "CSS",
-    "progress": "80",
-    "details": "Lorem ipsum dolor sit amet."
+    "progress": "90",
+    "details": "Front-end, Cascading Style Sheets"
   },
   {
     "skill_name": "JavaScript",
     "progress": "50",
-    "details": "Lorem ipsum dolor sit amet."
+    "details": "Front-end"
+  },
+  {
+    "skill_name": "SASS, Bootstrap",
+    "progress": "90",
+    "details": "Front-end, CSS preprocesory a knihovny"
   },
   {
     "skill_name": "React",
-    "progress": "80",
-    "details": "Lorem ipsum dolor sit ame."
+    "progress": "70",
+    "details": "Front-end, javascript framework"
+  },
+  {
+    "skill_name": "UX, UI",
+    "progress": "70",
+    "details": "User Experience a User Interface design. Pro tvorbu prototypů využívám nástroj Figma"
   },
   {
     "skill_name": "jQuery",
-    "progress": "70",
-    "details": "Lorem ipsum dolor sit amet."
+    "progress": "50",
+    "details": "Front-end, javascript knihovna"
   },
   {
-    "skill_name": "SASS",
-    "progress": "90",
-    "details": "Lorem ipsum dolor sit amet."
-  },
-  {
-    "skill_name": "Figma",
-    "progress": "80",
-    "details": "Lorem ipsum dolor sit amet."
-  },
-  {
-    "skill_name": "Adobe Fresco",
-    "progress": "70",
-    "details": "Lorem ipsum dolor sit amet."
+    "skill_name": "Vektorová grafika",
+    "progress": "40",
+    "details": "K vytváření vlastní grafiky používám nástroje Adobe Fresco, Inkscape a Vectornator"
   }
 ]

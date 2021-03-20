@@ -11,6 +11,7 @@ export const SkillItem = (props) => {
           top: `${props.top}px`,
           left: `${props.left}px`,
           right: `${props.right}px`,
+          justifyContent: `${props.justifyContent}`,
         }}
       >
         <span className="skillItem_name">{props.skillName}</span>
@@ -18,7 +19,7 @@ export const SkillItem = (props) => {
           <CircularStatic value={props.progress} />
         </div>
       </div>
-      <div id="skillItem_opened" className="skillItem_opened">
+      <div className="skillItem_opened">
         <div className="skillItem_details">
           <p>{props.details}</p>
         </div>
