@@ -34,11 +34,18 @@
     display: none;
     margin: 8px;
     align-items: center;
+    justify-content: space-between;
     flex-direction: column;
     width: $spacing * 14;
     border: 2px solid $pink-c;
     border-radius: 8px;
     padding: $spacing;
+    background-color: rgba(32, 0, 80, 0.5);
+
+    & a {
+      text-decoration: none;
+      color: $light-c;
+    }
   }
 
   &Name {
@@ -51,6 +58,7 @@
       text-transform: uppercase;
       color: $pink-c;
       font-weight: 600;
+      justify-content: space-between;
     }
   }
 
@@ -75,15 +83,9 @@
     }
   }
 
-  &Logo {
-    width: $spacing * 6;
-    margin-left: 16px;
-  }
-
-  &NameLogo {
+  &Name--opened {
     display: flex;
     align-items: center;
-    justify-content: center;
   }
 
   &:hover {

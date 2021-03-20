@@ -4,8 +4,12 @@
 
 .footer {
   height: 120px;
+  width: 100%;
+  margin: $spacing * 2 auto;
+
   &_div {
     height: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;

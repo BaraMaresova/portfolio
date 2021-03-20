@@ -23,6 +23,7 @@ export const About = (props) => {
         onClose={handleClose}
         aria-labelledby="customized-dialog-title"
         open={dialogOpen}
+        style={{ backgroundColor: 'rgba(32, 0, 80, 0.5)' }}
       >
         <div className="dialog_header" onClose={handleClose}>
           <h3 className="dialog_title">O mně</h3>

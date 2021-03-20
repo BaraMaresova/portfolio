@@ -7,11 +7,11 @@ import './homepage.scss';
 
 export const Homepage = () => {
   return (
-    <>
+    <div className="body_div">
       <Header />
       <Main />
       <Skills />
       <Footer />
-    </>
+    </div>
   );
 };
