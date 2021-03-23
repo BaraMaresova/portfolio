@@ -3,9 +3,13 @@
 @import '../../scss/variables';
 
 .skills_section {
-  height: 450px;
   display: flex;
+  flex-direction: column;
   position: relative;
+  height: 450px;
+  @media (min-width: 1100px) {
+    flex-direction: row;
+  }
 }
 
 .skills {
@@ -15,20 +19,33 @@
 }
 
 .skillsTitle {
+  display: block;
   text-transform: uppercase;
   letter-spacing: 0.8rem;
   font-family: $title-f;
   background-color: $purple-c;
-  border-radius: 50%;
-  width: $spacing * 15;
-  height: $spacing * 15;
+  padding: 4px;
+  border-radius: 8px;
+  width: 50%;
+  text-align: center;
+  order: -1;
+  position: absolute;
+  top: -35px;
   align-self: center;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: -2;
+  @media (min-width: 1100px) {
+    position: static;
+    border-radius: 50%;
+    width: $spacing * 15;
+    height: $spacing * 15;
+    align-self: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -2;
+  }
   & h2 {
     margin: 0;
+    text-align: center;
   }
 }

@@ -29,6 +29,7 @@
   margin: 8px;
   align-items: center;
   cursor: pointer;
+  transition: display 4s;
 
   &--opened {
     display: none;

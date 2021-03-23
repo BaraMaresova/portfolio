@@ -3,12 +3,20 @@
 @import '../../scss/variables';
 
 .header {
-  margin-bottom: $spacing * 2;
+  margin: 0 auto $spacing * 2 auto;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .namePhoto {
   display: flex;
   justify-content: center;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .titleName {
@@ -19,20 +27,33 @@
   margin: 24px;
   text-transform: uppercase;
   font-family: $title-f;
+  @media (max-width: 768px) {
+    margin: 12px;
+  }
 }
 
 .titlePhoto {
   width: 160px;
   margin: 24px;
   border-radius: 50%;
+  @media (max-width: 768px) {
+    width: 80px;
+    margin: 12px;
+  }
 }
 
 .name {
   letter-spacing: 2rem;
   margin: 16px;
   font-size: 2.2rem;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 }
 
 .surname {
   letter-spacing: 1.2rem;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 }

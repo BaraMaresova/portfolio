@@ -29,7 +29,7 @@ export const Skills = () => {
                 : null
             }
             right={
-              i % 2 != 0
+              i % 2 !== 0
                 ? 180 +
                   180 *
                     (Math.floor(

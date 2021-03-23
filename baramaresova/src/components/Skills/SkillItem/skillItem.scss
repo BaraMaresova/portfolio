@@ -7,8 +7,12 @@
   width: 150px;
   height: 75px;
   display: flex;
-  position: absolute;
   align-items: center;
+  position: absolute;
+  transition: transform 0.4s;
+  /* @media (min-width: 1100px) {
+    position: absolute;
+  } */
 
   &_name {
     font-family: $headlines-f;
@@ -24,10 +28,9 @@
   &_details {
     display: flex;
     font-family: $base-f;
-    background-color: $purple-c;
     border-radius: 50%;
-    width: $spacing * 15;
-    height: $spacing * 15;
+    width: $spacing * 9;
+    height: $spacing * 10;
     justify-content: center;
     align-items: center;
     z-index: -1;
@@ -40,12 +43,26 @@
     padding: 0;
     line-height: 1.5;
     text-align: center;
+    @media (min-width: 1100px) {
+      background-color: $purple-c;
+      width: $spacing * 15;
+    }
     & p {
       width: 80%;
     }
   }
-
-  &:hover + &_opened {
+  &:hover,
+  &:focus {
+    background-color: $purple-c;
+    border-radius: 8px;
+    padding: 4px;
+    @media (min-width: 1100px) {
+      transform: scale(1.4);
+      background-color: transparent;
+    }
+  }
+  &:hover + &_opened,
+  &:focus + &_opened {
     display: flex;
   }
 }

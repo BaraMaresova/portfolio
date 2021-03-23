@@ -15,7 +15,7 @@ export const ExperienceItem = (props) => {
       </div>
      
         <div className="experience--opened animate__fadeIn">
-          <a href={props.href} target="_blank">
+          <a href={props.href} target="_blank" rel="noreferrer">
             <div className="experienceName--opened">
               <h3 className="experienceDate--opened">{props.exp_date}</h3>
               <h3 className="experienceName--opened">{props.exp_name}</h3>
