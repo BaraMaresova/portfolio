@@ -24,7 +24,7 @@ export const Navigation = () => {
           <span></span>
           <span></span>
         </button>
-        {menuOpen ? (
+        {menuOpen && (
           <>
             <NavButton
               id="references"
@@ -42,7 +42,7 @@ export const Navigation = () => {
               onSelect={handleSelectItem}
             />
           </>
-        ) : null}
+        )}
       </div>
       <div className="navigation_desktop">
         {/*         <About navItem="O mně" />

@@ -16,6 +16,9 @@
     height: 90%;
     max-width: 100%;
   }
+  @media (max-width: 768px) {
+    align-items: center;
+  }
 }
 
 .experiences {
@@ -44,7 +47,11 @@
       right: 0;
       writing-mode: vertical-lr;
       text-orientation: upright;
-      width: 5%;
+      width: auto;
+    }
+    @media (max-width: 768px) {
+      font-size: 1.1rem;
+      width: 80%;
     }
   }
 }

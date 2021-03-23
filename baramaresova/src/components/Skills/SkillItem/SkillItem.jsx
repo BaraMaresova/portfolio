@@ -4,7 +4,7 @@ import './skillItem.scss';
 
 export const SkillItem = (props) => {
   return (
-    <>
+    <div className="skillItem_div">
       <div
         className="skillItem"
         style={{
@@ -15,7 +15,7 @@ export const SkillItem = (props) => {
         }}
       >
         <span className="skillItem_name">{props.skillName}</span>
-        <div style={{ order: `${props.order}` }}>
+        <div style={{ order: `${props.order}` }} id="progressDiv">
           <CircularStatic value={props.progress} />
         </div>
       </div>
@@ -24,6 +24,6 @@ export const SkillItem = (props) => {
           <p>{props.details}</p>
         </div>
       </div>
-    </>
+    </div>
   );
 };

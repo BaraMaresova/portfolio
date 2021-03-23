@@ -13,4 +13,7 @@
 
 .statement_div {
   margin: $spacing/2 auto $spacing auto;
+  @media (max-width: 768px) {
+    margin: 8px;
+  }
 }

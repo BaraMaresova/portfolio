@@ -15,6 +15,9 @@
     max-width: 100%;
     align-items: center;
   }
+  @media (max-width: 768px) {
+    align-items: center;
+  }
 }
 
 .references {
@@ -41,8 +44,12 @@
     @media (min-width: 1100px) {
       writing-mode: vertical-lr;
       text-orientation: upright;
-      width: 5%;
+      width: auto;
       left: 0;
+    }
+    @media (max-width: 768px) {
+      font-size: 1.1rem;
+      width: 80%;
     }
   }
   a {
