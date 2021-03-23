@@ -2,11 +2,79 @@
 @import '../../scss/colors';
 @import '../../scss/typography';
 
-.navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: $spacing;
-  width: 80%;
-  margin: 0 auto;
+@media (max-width: 768px) {
+  nav {
+    order: -1;
+    width: 60%;
+    align-self: flex-end;
+  }
+  .navigation_desktop {
+    display: none;
+  }
+
+  .navigation_mobile {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    align-self: flex-end;
+    justify-content: space-between;
+    position: relative;
+  }
+  .hamburger {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 8px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    & span {
+      position: absolute;
+      top: calc(50% - 2px);
+      right: 5px;
+      left: 0px;
+      height: 4px;
+      background-color: $light-c;
+      transition-property: opacity, transform;
+      transition-duration: 0.2s;
+      &:nth-child(1) {
+        transform: translateY(-250%);
+      }
+      &:nth-child(3) {
+        transform: translateY(250%);
+      }
+    }
+    &_opened {
+      position: absolute;
+      right: 5px;
+
+      & span:nth-child(2) {
+        opacity: 0;
+      }
+      & span:nth-child(1) {
+        transform: rotate(45deg);
+        background-color: $pink-c;
+      }
+      & span:nth-child(3) {
+        transform: rotate(-45deg);
+        background-color: $pink-c;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .navigation_desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: $spacing;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .navigation_mobile {
+    display: none;
+  }
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import { ReferenceItem } from '../References/ReferenceItem/ReferenceItem';
-import test_reference from '../../images/placeholder.png';
 import moninvo_gif from '../../images/moninvo_gif.gif';
 import moninvo from '../../images/moninvo.png';
 import consultVision from '../../images/Cvicon.svg';

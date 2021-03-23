@@ -30,7 +30,7 @@ export const Footer = () => {
         <div
           className="footer_contact"
           onClick={() => {
-            window.open('https://www.linkedin.com/in/bara-maresova/');
+            window.open('https://www.linkedin.com/in/bara-maresova');
           }}
         >
           <img src={linkedin} alt="ikona linkedinu" className="footer_icon" />

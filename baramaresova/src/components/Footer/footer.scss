@@ -28,4 +28,9 @@
   &_span {
     font-family: $title-f;
   }
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    height: auto;
+    margin: $spacing auto;
+  }
 }
