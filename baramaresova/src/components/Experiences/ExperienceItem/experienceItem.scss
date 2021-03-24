@@ -102,10 +102,12 @@
     align-items: center;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     display: none;
   }
-  &:hover + &--opened {
+  &:hover + &--opened,
+  &:focus + &--opened {
     display: flex;
   }
 }

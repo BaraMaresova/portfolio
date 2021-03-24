@@ -1,42 +1,42 @@
 [
   {
     "skill_name": "HTML",
-    "progress": "90",
+    "progress": 90,
     "details": "Front-end"
   },
   {
     "skill_name": "CSS",
-    "progress": "90",
+    "progress": 90,
     "details": "Front-end, Cascading Style Sheets"
   },
   {
     "skill_name": "JavaScript",
-    "progress": "50",
+    "progress": 50,
     "details": "Front-end"
   },
   {
     "skill_name": "SASS, Bootstrap",
-    "progress": "90",
+    "progress": 90,
     "details": "Front-end, CSS preprocesory a knihovny"
   },
   {
     "skill_name": "React",
-    "progress": "70",
+    "progress": 70,
     "details": "Front-end, javascript framework"
   },
   {
     "skill_name": "UX, UI",
-    "progress": "70",
+    "progress": 70,
     "details": "User Experience a User Interface design. Pro tvorbu prototypů využívám nástroj Figma"
   },
   {
     "skill_name": "jQuery",
-    "progress": "50",
+    "progress": 50,
     "details": "Front-end, javascript knihovna"
   },
   {
     "skill_name": "Vektorová grafika",
-    "progress": "40",
+    "progress": 40,
     "details": "K vytváření vlastní grafiky používám nástroje Adobe Fresco, Inkscape a Vectornator"
   }
 ]

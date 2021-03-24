@@ -16,7 +16,8 @@
   text-align: center;
   font-size: 18px;
   @media (max-width: 768px) {
-    width: 75%;
+    min-width: 100%;
+    padding: 8px 0px;
   }
 
   & a {
@@ -28,13 +29,15 @@
     @media (max-width: 768px) {
       font-size: 1rem;
       padding: 8px;
+      width: 100%;
     }
   }
-
-  &:hover,
-  &:focus {
-    background-color: $pink-c;
-    color: $light-c;
-    padding: 8px;
+  @media (min-width: 768px) {
+    &:hover,
+    &:focus {
+      background-color: $pink-c;
+      color: $light-c;
+      padding: 8px;
+    }
   }
 }

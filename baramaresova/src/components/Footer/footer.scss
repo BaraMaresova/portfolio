@@ -5,7 +5,7 @@
 .footer {
   height: 120px;
   width: 100%;
-  margin: $spacing * 2 auto;
+  margin: $spacing * 2 auto $spacing auto;
 
   &_div {
     height: 100%;
@@ -31,6 +31,6 @@
   @media (max-width: 768px) {
     font-size: 1rem;
     height: auto;
-    margin: $spacing auto;
+    margin: $spacing auto $spacing/2 auto;
   }
 }

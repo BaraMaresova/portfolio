@@ -34,6 +34,7 @@
     display: block;
     text-transform: uppercase;
     letter-spacing: 0.8rem;
+    margin-right: -0.8rem;
     background-color: $green-c;
     padding: 4px;
     border-radius: 8px;
@@ -41,6 +42,7 @@
     width: 50%;
     text-align: center;
     align-self: center;
+
     @media (min-width: 1100px) {
       writing-mode: vertical-lr;
       text-orientation: upright;
