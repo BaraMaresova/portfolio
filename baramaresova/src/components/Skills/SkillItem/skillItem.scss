@@ -10,7 +10,7 @@
   align-items: center;
   position: absolute;
   transition: transform 0.4s;
-  @media (max-width: 768px) {
+  @media (max-width: 850px) {
     position: static;
     flex-basis: 30%;
     height: auto;
@@ -31,7 +31,7 @@
 
   &_opened {
     display: none;
-    @media (max-width: 768px) {
+    @media (max-width: 850px) {
       display: block;
       width: 70%;
     }
@@ -62,7 +62,7 @@
     & p {
       width: 80%;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 850px) {
       position: static;
       width: auto;
       height: auto;
@@ -73,14 +73,14 @@
       margin-right: 8px;
     }
   }
-  @media (min-width: 768px) {
+  @media (min-width: 850px) {
     &:hover,
     &:focus {
       background-color: $purple-c;
       border-radius: 8px;
       padding: 4px;
       @media (min-width: 1100px) {
-        transform: scale(1.4);
+        transform: scale(1.2);
         background-color: transparent;
       }
     }
@@ -91,7 +91,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .skillItem_div {
     display: flex;
     justify-content: space-between;

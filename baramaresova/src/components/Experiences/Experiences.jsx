@@ -23,14 +23,14 @@ export const Experiences = () => {
         />
         <ExperienceItem
           e_line_length="experienceLine experienceLine-long"
-          exp_date="2016-2020"
+          exp_date="2016 - 2020"
           exp_name="Booking.com"
           href="https://www.booking.com"
           exp_details="V Booking.com jsem dostala prostor rozvíjet kreativní přístupy k  řešení problémů tím, že jsem dostala na starosti projekt rozvoje krátkodobých pronájmů v celé ČR. Díky řízení projektu, aktivní práce s partnery a každodenní práce s daty se mi povedlo projekt dostat na vysokou úroveň a zajistit tím i růst týmu."
         />
         <ExperienceItem
           e_line_length="experienceLine experienceLine-short"
-          exp_date="2011-2016"
+          exp_date="2011 - 2016"
           exp_name="Hewlett-Packard"
           href="https://www.hpe.com/us/en/home.html"
           exp_details="V Hewlett-Packard (a později v Hewlett-Packard Enterprise) jsem se postupně z asistentských pozic přes projektového koordinátora dostala k account managementu obchodních partnerů společnosti. Díky této pozici jsem se konečně více přiblížila IT a začala budovat obchodnické dovednosti."

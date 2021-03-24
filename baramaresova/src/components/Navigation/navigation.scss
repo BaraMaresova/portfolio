@@ -5,7 +5,7 @@
 @media (max-width: 768px) {
   nav {
     order: -1;
-    width: 60%;
+    width: 100%;
     align-self: flex-end;
   }
   .navigation_desktop {
@@ -15,10 +15,11 @@
   .navigation_mobile {
     display: flex;
     flex-direction: column;
-    margin: 8px;
+    margin: 8px auto;
     align-self: flex-end;
     justify-content: space-between;
     position: relative;
+    width: 100%;
   }
   .hamburger {
     display: block;
@@ -29,6 +30,9 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
+    &:focus {
+      outline: none;
+    }
 
     & span {
       position: absolute;

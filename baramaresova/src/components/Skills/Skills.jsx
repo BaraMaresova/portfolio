@@ -9,6 +9,7 @@ export const Skills = () => {
       <div className="skills">
         {skills.map((skill, i) => (
           <SkillItem
+            key={i}
             skillName={skill.skill_name}
             progress={skill.progress}
             details={skill.details}
