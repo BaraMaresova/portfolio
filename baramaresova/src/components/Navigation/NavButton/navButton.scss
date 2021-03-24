@@ -1,0 +1,43 @@
+@import '../../../scss/variables';
+@import '../../../scss/colors';
+@import '../../../scss/typography';
+
+.navButton {
+  min-width: $spacing * 4;
+  padding: 8px;
+  cursor: pointer;
+  /*   border-bottom: 1px solid $pink-c;
+ */
+  border-radius: 8px;
+  color: $green-c;
+  font-family: $title-f;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  @media (max-width: 768px) {
+    min-width: 100%;
+    padding: 8px 0px;
+  }
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+    font-family: $title-f;
+    text-align: center;
+    @media (max-width: 768px) {
+      font-size: 1rem;
+      padding: 8px;
+      width: 100%;
+    }
+  }
+  @media (min-width: 768px) {
+    &:hover,
+    &:focus {
+      background-color: $pink-c;
+      color: $light-c;
+      padding: 8px;
+    }
+  }
+}

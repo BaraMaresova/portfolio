@@ -1,0 +1,94 @@
+@import '../../../scss/variables';
+@import '../../../scss/colors';
+@import '../../../scss/typography';
+
+.referenceItem {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.referencePointer {
+  display: flex;
+  align-items: center;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.referenceLine {
+  display: inline-block;
+  width: $line_length;
+  border-top: 2px solid $pink-c;
+  &-short {
+    width: $line_length * 4;
+  }
+  &-long {
+    width: $line_length * 10;
+  }
+}
+
+.reference {
+  display: flex;
+  margin: 8px;
+  cursor: pointer;
+
+  &Details--opened {
+    color: $light-c;
+  }
+  &--opened {
+    display: none;
+    margin: 8px auto;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border: 2px solid $green-c;
+    border-radius: 8px;
+    padding: $spacing;
+    background-color: rgba(32, 0, 80, 0.5);
+    @media (min-width: 768px) {
+      margin: 8px;
+      width: 60%;
+    }
+    @media (min-width: 1100px) {
+      width: $spacing * 14;
+      margin: 8px;
+    }
+  }
+
+  &Image {
+    width: $spacing * 5;
+    margin: 0 8px 8px 0;
+
+    &--opened {
+      margin: 0 8px 8px 0;
+      width: $spacing * 14;
+    }
+  }
+
+  &Name {
+    font-family: $headlines-f;
+    text-transform: uppercase;
+    font-weight: 300;
+    align-self: center;
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
+
+    &--opened {
+      font-family: $headlines-f;
+      text-transform: uppercase;
+      color: $green-c;
+      font-weight: 600;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    display: none;
+  }
+  &:hover + &--opened,
+  &:focus + &--opened {
+    display: flex;
+  }
+}
