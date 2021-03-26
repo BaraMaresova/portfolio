@@ -57,9 +57,12 @@
   }
 
   &Image {
-    width: $spacing * 5;
+    width: $spacing * 3;
+    height: auto;
     margin: 0 8px 8px 0;
-
+    @media (min-width: 1100px) {
+      width: $spacing * 5;
+    }
     &--opened {
       margin: 0 8px 8px 0;
       width: $spacing * 14;
