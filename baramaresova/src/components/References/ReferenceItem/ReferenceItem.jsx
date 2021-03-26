@@ -20,12 +20,14 @@ export const ReferenceItem = (props) => {
             src={props.ref_src_opened}
             alt="printscreen referenčního webu"
           />
-          <h3 className="referenceName--opened">
+          <h3 className="referenceName--opened">{props.ref_name}</h3>
+          <span className="referenceDetails--opened">
+            {props.ref_details}
+            <br />
             <a href={props.ref_href} target="blank">
-              {props.ref_name}
+              Odkaz: {props.ref_name}
             </a>
-          </h3>
-          <span className="referenceDetails--opened">{props.ref_details}</span>
+          </span>
         </div>
         <div className="referencePointer">
           <img src={circleRef} alt="kolečko" />

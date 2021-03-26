@@ -46,10 +46,6 @@
     border-radius: 8px;
     background-color: rgba(32, 0, 80, 0.5);
 
-    & a {
-      text-decoration: none;
-      color: $light-c;
-    }
     @media (min-width: 768px) {
       margin: 8px;
       width: 60%;
@@ -97,9 +93,10 @@
     }
   }
 
-  &Name--opened {
+  &NameDate--opened {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   &:hover,

@@ -34,12 +34,13 @@
 }
 
 .titlePhoto {
-  width: 160px;
-  height: auto;
+  width: 80px;
+  height: 80px;
   margin: 24px;
   border-radius: 50%;
-  @media (max-width: 768px) {
-    width: 80px;
+  @media (min-width: 768px) {
+    width: 160px;
+    height: 160px;
     margin: 12px;
   }
 }

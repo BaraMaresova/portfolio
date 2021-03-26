@@ -32,7 +32,10 @@
   display: flex;
   margin: 8px;
   cursor: pointer;
-
+  width: 100%;
+  @media (min-width: 768px) {
+    justify-content: flex-end;
+  }
   &Details--opened {
     color: $light-c;
   }
@@ -57,11 +60,17 @@
   }
 
   &Image {
-    width: $spacing * 3;
-    height: auto;
+    max-width: $spacing * 3;
+    max-height: 65px;
     margin: 0 8px 8px 0;
+
+    @media (min-width: 768px) {
+      max-width: $spacing * 4;
+      max-height: 65px;
+    }
     @media (min-width: 1100px) {
-      width: $spacing * 5;
+      max-width: $spacing * 5;
+      max-height: 80px;
     }
     &--opened {
       margin: 0 8px 8px 0;
