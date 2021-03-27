@@ -1,5 +1,5 @@
 import React from 'react';
-import foto from '../../images/resized.jpg';
+import foto from '../../images/resized.png';
 import { Navigation } from '../Navigation/Navigation.jsx';
 import { Statement } from '../Statement/Statement.jsx';
 import './header.scss';
