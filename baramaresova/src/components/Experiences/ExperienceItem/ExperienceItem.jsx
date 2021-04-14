@@ -1,26 +1,14 @@
 import React from 'react';
-import circleExp from '../../../images/circleExp.svg';
 import './experienceItem.scss';
 
 export const ExperienceItem = (props) => {
   return (
     <div className="experienceItem">
-      <div className="experiencePointer">
-        <span className={props.e_line_length}></span>
-        <img src={circleExp} alt="kolečko" />
-      </div>
-      <div className="experience">
+      <div className="experienceNameDate">
         <h3 className="experienceDate">{props.exp_date}</h3>
         <h3 className="experienceName">{props.exp_name}</h3>
       </div>
-
-      <div className="experience--opened animate__fadeIn">
-        <div className="experienceNameDate--opened">
-          <h3 className="experienceDate--opened">{props.exp_date}</h3>
-          <h3 className="experienceName--opened">{props.exp_name}</h3>
-        </div>
-        <span className="experienceDetails--opened">{props.exp_details}</span>
-      </div>
+      <span className="experienceDetails">{props.exp_details}</span>
     </div>
   );
 };

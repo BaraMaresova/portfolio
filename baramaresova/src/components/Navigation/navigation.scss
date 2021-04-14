@@ -2,83 +2,37 @@
 @import '../../scss/colors';
 @import '../../scss/typography';
 
-@media (max-width: 768px) {
-  nav {
-    order: -1;
-    width: 100%;
-    align-self: flex-end;
-  }
-  .navigation_desktop {
-    display: none;
-  }
-
-  .navigation_mobile {
-    display: flex;
-    flex-direction: column;
-    margin: 8px auto;
-    align-self: flex-end;
-    justify-content: space-between;
-    position: relative;
-    width: 100%;
-  }
-  .hamburger {
-    display: block;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    right: 8px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    &:focus {
-      outline: none;
-    }
-
-    & span {
-      position: absolute;
-      top: calc(50% - 2px);
-      right: 5px;
-      left: 0px;
-      height: 4px;
-      background-color: $light-c;
-      transition-property: opacity, transform;
-      transition-duration: 0.2s;
-      &:nth-child(1) {
-        transform: translateY(-250%);
-      }
-      &:nth-child(3) {
-        transform: translateY(250%);
-      }
-    }
-    &_opened {
-      position: absolute;
-      right: 5px;
-
-      & span:nth-child(2) {
-        opacity: 0;
-      }
-      & span:nth-child(1) {
-        transform: rotate(45deg);
-        background-color: $pink-c;
-      }
-      & span:nth-child(3) {
-        transform: rotate(-45deg);
-        background-color: $pink-c;
-      }
-    }
-  }
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: $spacing/2 auto;
 }
 
-@media (min-width: 768px) {
-  .navigation_desktop {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: $spacing;
-    width: 80%;
-    margin: 0 auto;
+.navButton {
+  width: $spacing * 10;
+  padding: 8px;
+  cursor: pointer;
+  color: $green-c;
+  font-family: $title-f;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  & a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    font-family: $title-f;
+    text-align: center;
   }
-  .navigation_mobile {
-    display: none;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $pink-c;
+    color: $light-c;
+    padding: 8px;
+    border-radius: 8px;
   }
 }

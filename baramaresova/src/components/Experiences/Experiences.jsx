@@ -5,8 +5,6 @@ import './experiences.scss';
 export const Experiences = () => {
   return (
     <div id="experiences" className="main-right">
-      <h2 className="experiencesTitle">Zkušenosti</h2>
-
       <div className="experiences">
         <ExperienceItem
           e_line_length="experienceLine experienceLine-long"

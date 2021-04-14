@@ -1,8 +1,9 @@
 @import '../scss/colors';
 @import '../scss/typography';
+@import '../scss/variables';
 
 body {
-  background-image: url('../images/Backgroundmlh.jpg');
+  background-image: url('../images/Background_stars.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11,4 +12,40 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   font-family: $base-f;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: $spacing/2 auto;
+}
+
+.navButton {
+  width: $spacing * 10;
+  padding: 8px;
+  cursor: pointer;
+  color: $green-c;
+  font-family: $title-f;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  & a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    font-family: $title-f;
+    text-align: center;
+  }
+  &:hover,
+  &:focus,
+  &:active,
+  &:target {
+    background-color: $pink-c;
+    color: $light-c;
+    padding: 8px;
+    border-radius: 8px;
+  }
 }

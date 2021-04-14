@@ -3,118 +3,40 @@
 @import '../../../scss/typography';
 
 .experienceItem {
-  display: flex;
-  justify-content: flex-start;
-}
+  max-width: 90vw;
 
-.experiencePointer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  @media (max-width: 768px) {
-    display: none;
-  }
-}
-
-.experienceLine {
-  display: inline-block;
-  width: $line_length;
-  border-top: 2px solid $green-c;
-  &-short {
-    width: $line_length * 4;
-  }
-  &-long {
-    width: $line_length * 10;
-  }
+  border: 1px solid $pink-c;
+  border-radius: 8px;
+  padding: $spacing;
+  background-color: rgba(32, 0, 80, 0.5);
+  margin: 0 $spacing;
 }
 
 .experience {
-  display: flex;
-  margin: 8px;
-  align-items: center;
-  cursor: pointer;
-  transition: display 4s;
-
-  &--opened {
-    display: none;
-    margin: 8px auto;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 80%;
-    border: 2px solid $pink-c;
-    padding: $spacing;
-    border-radius: 8px;
-    background-color: rgba(32, 0, 80, 0.5);
-
-    @media (min-width: 768px) {
-      margin: 8px;
-      width: 60%;
-    }
-    @media (min-width: 1100px) {
-      width: $spacing * 14;
-    }
-  }
-
   &Name {
     font-family: $headlines-f;
     text-transform: uppercase;
-    font-weight: 300;
-    @media (max-width: 768px) {
-      font-size: 1rem;
-    }
-
-    &--opened {
-      font-family: $headlines-f;
-      text-transform: uppercase;
-      color: $pink-c;
-      font-weight: 600;
-      justify-content: space-between;
-    }
+    font-weight: 500;
+    color: $pink-c;
+    font-size: 1.1rem;
   }
 
   &Date {
-    border: 1.5px solid $pink-c;
     border-radius: 8px;
     padding: 8px;
     margin-right: 8px;
     font-family: $headlines-f;
+    font-weight: 500;
+    color: $green-c;
+    font-size: 1.1rem;
+  }
+  &Details {
+    max-width: inherit;
+    font-size: 1rem;
     font-weight: 300;
-
-    &--opened {
-      border: 1.5px solid $pink-c;
-      font-family: $headlines-f;
-      margin-right: 8px;
-      border-radius: 8px;
-      text-transform: uppercase;
-      color: $pink-c;
-      border: none;
-      padding: 0;
-      font-weight: 400;
-    }
-  }
-
-  &NameDate--opened {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  &:hover,
-  &:active {
-    display: none;
-  }
-  &:hover + &--opened,
-  &:active + &--opened {
-    display: flex;
-  }
-  @media (min-width: 1100px) {
-    &:hover,
-    &:focus {
-      display: none;
-    }
-    &:hover + &--opened,
-    &:focus + &--opened {
-      display: flex;
-    }
+    text-align: justify;
   }
 }
