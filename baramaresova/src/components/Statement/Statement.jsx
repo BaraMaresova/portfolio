@@ -5,9 +5,10 @@ export const Statement = () => {
   return (
     <div className="statement_div">
       <p className="statement_text">
-        Mým cílem je transformovat své dosavadní zkušenosti z obchodu do
-        úspěšných webových stránek. <br />
-        Programuji v Reactu, tvořím vlastní grafiku a věnuji se UX designu.
+        Jsem front-end developer programující primárně v Reactu, tvořící vlastní
+        grafiku a aktuálně studující UX design.
+        <br /> Mým cílem je transformovat své dlouholeté zkušenosti z obchodu do
+        úspěšných webových stránek.
       </p>
     </div>
   );

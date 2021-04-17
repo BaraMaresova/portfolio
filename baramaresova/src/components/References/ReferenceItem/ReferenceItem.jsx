@@ -15,7 +15,7 @@ export const ReferenceItem = (props) => {
           {props.ref_details}
           <br />
           <a className="referenceWeb" href={props.ref_href} target="blank">
-            Odkaz: {props.ref_name}
+            {props.ref_www}
           </a>
         </span>
       </div>

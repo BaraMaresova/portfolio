@@ -3,7 +3,7 @@
 @import '../scss/variables';
 
 body {
-  background-image: url('../images/Background_stars.png');
+  background-image: url('../images/Backgroundmlh.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -32,20 +32,30 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-size: 16px;
+
   & a {
     text-decoration: none;
     color: inherit;
     font-size: 16px;
     font-family: $title-f;
     text-align: center;
+    @media (min-width: 1100px) {
+      font-size: 20px;
+    }
   }
   &:hover,
   &:focus,
-  &:active,
   &:target {
     background-color: $pink-c;
     color: $light-c;
     padding: 8px;
     border-radius: 8px;
   }
+}
+
+.active {
+  background-color: $pink-c;
+  color: $light-c;
+  padding: 8px;
+  border-radius: 8px;
 }

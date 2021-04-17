@@ -3,16 +3,19 @@
 @import '../../../scss/typography';
 
 .experienceItem {
-  max-width: 90vw;
-
+  min-width: 220px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   border: 1px solid $pink-c;
   border-radius: 8px;
   padding: $spacing;
   background-color: rgba(32, 0, 80, 0.5);
   margin: 0 $spacing;
+  @media (min-width: 768px) {
+    min-width: 400px;
+  }
 }
 
 .experience {
