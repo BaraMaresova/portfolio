@@ -6,12 +6,14 @@
   color: $light-c;
   font-family: $headlines-f;
   font-weight: 300;
-  font-style: italic;
   text-align: center;
-  margin: 0;
+  background-color: rgba(32, 0, 80, 0.5);
+  padding: $spacing * 2;
+  border-radius: 8px;
 }
 
 .statement_div {
+  max-width: 750px;
   margin: $spacing/2 auto $spacing auto;
   @media (max-width: 768px) {
     margin: 8px;

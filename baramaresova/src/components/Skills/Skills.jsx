@@ -45,9 +45,6 @@ export const Skills = () => {
           />
         ))}
       </div>
-      <div className="skillsTitle">
-        <h2>Dovednosti</h2>
-      </div>
     </section>
   );
 };

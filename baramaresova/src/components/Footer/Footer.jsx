@@ -8,7 +8,6 @@ import './footer.scss';
 export const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer_div">
         <div
           className="footer_contact"
           onClick={() => {
@@ -36,7 +35,6 @@ export const Footer = () => {
           <img src={linkedin} alt="ikona linkedinu" className="footer_icon" />
           <span className="footer_span">LinkedIn</span>
         </div>
-      </div>
     </footer>
   );
 };

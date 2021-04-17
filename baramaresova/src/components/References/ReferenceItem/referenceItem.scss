@@ -3,115 +3,43 @@
 @import '../../../scss/typography';
 
 .referenceItem {
+  min-width: 300px;
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
+  border: 1px solid $green-c;
+  border-radius: 8px;
+  padding: $spacing;
+  background-color: rgba(32, 0, 80, 0.5);
+  margin: 0 $spacing;
 }
 
-.referencePointer {
-  display: flex;
-  align-items: center;
-  @media (max-width: 768px) {
-    display: none;
-  }
-}
-
-.referenceLine {
-  display: inline-block;
-  width: $line_length;
-  border-top: 2px solid $pink-c;
-  &-short {
-    width: $line_length * 4;
-  }
-  &-long {
-    width: $line_length * 10;
-  }
-}
-
-.reference {
-  display: flex;
-  margin: 8px;
-  cursor: pointer;
+.referenceImage {
   width: 100%;
-  @media (min-width: 768px) {
-    justify-content: flex-end;
-  }
-  &Details--opened {
-    color: $light-c;
-  }
-  &--opened {
-    display: none;
-    margin: 8px auto;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    border: 2px solid $green-c;
-    border-radius: 8px;
-    padding: $spacing;
-    background-color: rgba(32, 0, 80, 0.5);
-    @media (min-width: 768px) {
-      margin: 8px;
-      width: 60%;
-    }
-    @media (min-width: 1100px) {
-      width: $spacing * 14;
-      margin: 8px;
-    }
-  }
+}
 
-  &Image {
-    max-width: $spacing * 3;
-    max-height: 65px;
-    margin: 0 8px 8px 0;
+.referenceName {
+  font-family: $headlines-f;
+  text-transform: uppercase;
+  font-weight: 500;
+  align-self: center;
+  font-size: 1.1rem;
+  color: $pink-c;
+}
 
-    @media (min-width: 768px) {
-      max-width: $spacing * 4;
-      max-height: 65px;
-    }
-    @media (min-width: 1100px) {
-      max-width: $spacing * 5;
-      max-height: 80px;
-    }
-    &--opened {
-      margin: 0 8px 8px 0;
-      width: $spacing * 14;
-    }
-  }
+.referenceDetails {
+  max-width: inherit;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: justify;
+}
 
-  &Name {
-    font-family: $headlines-f;
-    text-transform: uppercase;
-    font-weight: 300;
-    align-self: center;
-    @media (max-width: 768px) {
-      font-size: 1rem;
-    }
-
-    &--opened {
-      font-family: $headlines-f;
-      text-transform: uppercase;
-      color: $green-c;
-      font-weight: 600;
-    }
-  }
-
+.referenceWeb {
+  cursor: pointer;
   &:hover,
+  &:focus,
   &:active {
-    display: none;
-  }
-  &:hover + &--opened,
-  &:active + &--opened {
-    display: flex;
-  }
-
-  @media (min-width: 1100px) {
-    &:hover,
-    &:focus {
-      display: none;
-    }
-    &:hover + &--opened,
-    &:focus + &--opened {
-      display: flex;
-    }
+    font-weight: 600;
   }
 }
