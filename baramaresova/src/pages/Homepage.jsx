@@ -14,32 +14,29 @@ export const Homepage = () => {
       <div className="body_wrapper">
         <Header />
         <nav className="navigation">
-          <div className="navButton">
-            <a
-              href="#references"
-              className={activePart === 'active'}
-              onClick={(e) => setActivePart('references')}
-            >
-              Reference
-            </a>
+          <div
+            className={
+              activePart === 'references' ? 'active navButton' : 'navButton'
+            }
+            onClick={(e) => setActivePart('references')}
+          >
+            Reference
           </div>
-          <div className="navButton">
-            <a
-              href="#skills"
-              className={activePart === 'active'}
-              onClick={(e) => setActivePart('skills')}
-            >
-              Dovednosti
-            </a>
+          <div
+            className={
+              activePart === 'skills' ? 'active navButton' : 'navButton'
+            }
+            onClick={(e) => setActivePart('skills')}
+          >
+            Dovednosti
           </div>
-          <div className="navButton">
-            <a
-              href="#experiences"
-              className={activePart === 'active'}
-              onClick={(e) => setActivePart('experiences')}
-            >
-              Zkušenosti
-            </a>
+          <div
+            className={
+              activePart === 'experiences' ? 'active navButton' : 'navButton'
+            }
+            onClick={(e) => setActivePart('experiences')}
+          >
+            Zkušenosti
           </div>
         </nav>
 
