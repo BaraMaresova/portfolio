@@ -2,7 +2,7 @@ import React from 'react';
 import { ReferenceItem } from '../References/ReferenceItem/ReferenceItem';
 import moninvo_gif from '../../images/moninvo_resized.gif';
 import sbkgraphics from '../../images/sbkgraphics_web.png';
-import cvplaceholder from '../../images/ConsultVision_placeholder.jpg';
+import cv from '../../images/consultvision.png';
 import './references.scss';
 
 export const References = () => {
@@ -16,14 +16,16 @@ export const References = () => {
         ref_www="Odkaz: Moninvo"
       />
       <ReferenceItem
-        ref_src={cvplaceholder}
+        ref_src={cv}
         ref_name="ConsultVision"
-        ref_details="Webová stránka společnosti ConsultVision - ve výstavbě."
+        ref_href="http://consultvision.cz"
+        ref_www="Odkaz: ConsultVision"
+        ref_details="Grafický návrh a webové stránky pro společnost ConsultVision s.r.o."
       />
       <ReferenceItem
         ref_src={sbkgraphics}
         ref_name="SpaceBarKeepers"
-        ref_details="Ukázka grafiky pro web vlastní firmy SpaceBarKeepers, webová stránka je ve výstavbě."
+        ref_details="Ukázka grafiky pro web vlastní značky SpaceBarKeepers, webová stránka je ve výstavbě."
       />
     </div>
   );
