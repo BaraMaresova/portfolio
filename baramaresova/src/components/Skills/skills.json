@@ -27,16 +27,17 @@
   {
     "skill_name": "UX, UI",
     "progress": 70,
-    "details": "User Experience a User Interface design. Pro tvorbu prototypů využívám nástroj Figma"
-  },
-  {
-    "skill_name": "jQuery",
-    "progress": 50,
-    "details": "Front-end, javascript knihovna"
+    "details": "User Experience a User Interface design. Aktuálně studuji kurz Foundations of User Experience Design od Google."
   },
   {
     "skill_name": "Vektorová grafika",
     "progress": 40,
     "details": "K vytváření vlastní grafiky používám nástroje Adobe Fresco, Inkscape a Vectornator"
+  },
+  {
+    "skill_name": "jQuery",
+    "progress": 50,
+    "details": "Front-end, javascript knihovna"
   }
+
 ]
