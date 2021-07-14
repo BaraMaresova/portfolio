@@ -2,12 +2,20 @@ import React from 'react';
 import { ReferenceItem } from '../References/ReferenceItem/ReferenceItem';
 import moninvo_gif from '../../images/moninvo_resized.gif';
 import sbkgraphics from '../../images/sbkgraphics_web.png';
+import letokruh from '../../images/letokruh.png';
 import cv from '../../images/consultvision.png';
 import './references.scss';
 
 export const References = () => {
   return (
     <div className="references">
+      <ReferenceItem
+        ref_src={letokruh}
+        ref_name={'Letokruh'}
+        ref_href="https://letokruh.eu/"
+        ref_details="Naprogramování webové stránky obecně prospěšné společnosti Letokruh. Front-end vytvořen v Reactu podle grafického návrhu UX designéra společnosti, administrace řešená přes Wordpress."
+        ref_www="Odkaz: Letokruh"
+      />
       <ReferenceItem
         ref_src={moninvo_gif}
         ref_name={'Moninvo'}
