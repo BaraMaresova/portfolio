@@ -5,22 +5,14 @@
 .skills_section {
   display: flex;
   flex-direction: column;
-  position: relative;
   background-color: rgba(32, 0, 80, 0.5);
-  border-radius: 8px;
-  margin: 0 12px;
   align-items: flex-start;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
-
-  @media (min-width: 850px) {
-    flex-direction: row;
-    height: 450px;
-  }
 }
 
 .skills {
-  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
