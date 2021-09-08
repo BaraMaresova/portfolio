@@ -4,6 +4,8 @@ import moninvo_gif from '../../images/moninvo_resized.gif';
 import sbkgraphics from '../../images/sbkgraphics_web.png';
 import letokruh from '../../images/letokruh.png';
 import cv from '../../images/consultvision.png';
+import dkck from '../../images/dkck_draft.png';
+import skp from '../../images/skpJirkovdraft.png';
 import './references.scss';
 
 export const References = () => {
@@ -15,6 +17,16 @@ export const References = () => {
         ref_href="https://letokruh.eu/"
         ref_details="Naprogramování webové stránky obecně prospěšné společnosti Letokruh. Front-end vytvořen v Reactu podle grafického návrhu UX designéra společnosti, administrace řešená přes Wordpress."
         ref_www="Odkaz: Letokruh"
+      />
+      <ReferenceItem
+        ref_src={dkck}
+        ref_name="Dámský klub Český Krumlov"
+        ref_details="Webová stránka ve výstavbě."
+      />
+      <ReferenceItem
+        ref_src={skp}
+        ref_name="Sportovní klub karate Hvězda Jirkov"
+        ref_details="Webová stránka ve výstavbě."
       />
       <ReferenceItem
         ref_src={moninvo_gif}
