@@ -7,6 +7,12 @@ export const Experiences = () => {
     <div id="experiences" className="main-right">
       <div className="experiences">
         <ExperienceItem
+          exp_date="2021"
+          exp_name="SpaceBarKeepers"
+          href="https://spacebarkeepers.com"
+          exp_details="Na začátku roku 2021 jsem spoluzaložila SpaceBarKeepers. Naším cílem je vyvíjet webové aplikace na míru a to jak vlastní, tak i na zakázku pro naše klienty."
+        />
+        <ExperienceItem
           e_line_length="experienceLine experienceLine-long"
           exp_date="2020"
           exp_name="Czechitas: DA Web"
