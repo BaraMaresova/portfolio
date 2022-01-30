@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef4b1693.css",
+    "main.js": "/static/js/main.696ebf62.js",
+    "static/media/moninvo_resized.gif": "/static/media/moninvo_resized.8299094908ef4d1020ed.gif",
+    "static/media/Backgroundmlh.jpg": "/static/media/Backgroundmlh.d2052062681a7d3d6884.jpg",
+    "static/media/letokruh.png": "/static/media/letokruh.fc7f441a2ceb439c4baa.png",
+    "static/media/sbkgraphics_web.png": "/static/media/sbkgraphics_web.525e4509b2de93be02bd.png",
+    "static/media/resized.png": "/static/media/resized.5989797399c76cf4ad81.png",
+    "static/media/skpJirkovdraft.png": "/static/media/skpJirkovdraft.8cf54cf781538a6e81d5.png",
+    "static/media/dkck_draft.png": "/static/media/dkck_draft.cf5dee61bf087acc40d6.png",
+    "index.html": "/index.html",
+    "static/media/github.svg": "/static/media/github.293ca66a13fecda3280d9e3af1929729.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.5cee29404005487cf414bae3b852124d.svg",
+    "static/media/email.svg": "/static/media/email.ce0e9225ebbb3e26592bce8a5cfb9155.svg",
+    "main.ef4b1693.css.map": "/static/css/main.ef4b1693.css.map",
+    "main.696ebf62.js.map": "/static/js/main.696ebf62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef4b1693.css",
+    "static/js/main.696ebf62.js"
+  ]
+}
