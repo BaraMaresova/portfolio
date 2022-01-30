@@ -1,10 +1,13 @@
 import React from 'react';
-import { ExperienceItem } from './ExperienceItem/ExperienceItem.jsx';
+import { ExperienceItem } from '../components/ExperienceItem/ExperienceItem.jsx';
+import { Footer } from '../components/Footer/Footer.jsx';
+import { Header } from '../components/Header/Header.jsx';
 import './experiences.scss';
 
 export const Experiences = () => {
   return (
-    <div id="experiences" className="main-right">
+    <section>
+      <Header />
       <div className="experiences">
         <ExperienceItem
           exp_date="2021"
@@ -40,6 +43,7 @@ export const Experiences = () => {
           exp_details="V Hewlett-Packard (a později v Hewlett-Packard Enterprise) jsem se postupně z asistentských pozic přes projektového koordinátora dostala k account managementu obchodních partnerů společnosti. Díky této pozici jsem se konečně více přiblížila IT a začala budovat obchodnické dovednosti."
         />
       </div>
-    </div>
+      <Footer />
+    </section>
   );
 };

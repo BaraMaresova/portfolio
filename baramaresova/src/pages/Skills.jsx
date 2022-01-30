@@ -1,11 +1,14 @@
 import React from 'react';
-import { SkillItem } from './SkillItem/SkillItem.jsx';
-import skills from './skills.json';
+import { Footer } from '../components/Footer/Footer.jsx';
+import { Header } from '../components/Header/Header.jsx';
+import { SkillItem } from '../components/Skills/SkillItem/SkillItem.jsx';
+import skills from '../components/Skills/skills.json';
 import './skills.scss';
 
 export const Skills = () => {
   return (
-    <section id="skills" className="skills_section">
+    <section className="skills_section">
+      <Header />
       <div className="skills">
         {skills.map((skill, i) => (
           <SkillItem
@@ -16,6 +19,7 @@ export const Skills = () => {
           />
         ))}
       </div>
+      <Footer />
     </section>
   );
 };

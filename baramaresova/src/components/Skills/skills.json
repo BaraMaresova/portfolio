@@ -4,8 +4,8 @@
     "details": "Semantic HTML 5 elements"
   },
   {
-    "skill_name": "CSS",
-    "details": "Responzivita, používání SASS preprocesoru, knihovny Bootstrap a Tailwind CSS"
+    "skill_name": "CSS a Styled Components",
+    "details": "Responzivita, používání SASS preprocesoru, knihovny Bootstrap a Tailwind CSS, aktuálně používám na velkém projektu Styled Components."
   },
   {
     "skill_name": "JavaScript",
@@ -15,6 +15,7 @@
     "skill_name": "React",
     "details": "React Hooks (useState, useEffect), React Router, React Context, vytváření komponent, komunikace mezi komponentami."
   },
+  { "skill_name": "React Native", "details": "Aktuálně vyvíjím vlastní mobilní aplikaci pro iOS, pro navigaci používám React Native Navigation." },
   {
     "skill_name": "GIT",
     "details": "Práce s verzovacím systémem Git, používání větví, code reviews. Projekty a akce an GitHub."
@@ -24,7 +25,7 @@
     "details": "Vytváření vlastních User Experience a User Interface designů. Aktuálně studuji kurz Foundations of User Experience Design od Google."
   },
   {
-    "skill_name": "Vektorová grafika",
-    "details": "K vytváření vlastní grafiky používám nástroje Adobe Fresco, Inkscape a Vectornator"
+    "skill_name": "Grafika",
+    "details": "K vytváření vlastní grafiky používám nástroje Adobe Fresco a Adobe Photoshop."
   }
 ]

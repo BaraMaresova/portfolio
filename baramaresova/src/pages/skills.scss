@@ -1,18 +1,14 @@
-@import '../../scss/colors';
-@import '../../scss/typography';
-@import '../../scss/variables';
+@import '../scss/colors';
+@import '../scss/typography';
+@import '../scss/variables';
 
-.skills_section {
+.skills {
   display: flex;
   flex-direction: column;
   background-color: rgba(32, 0, 80, 0.5);
   align-items: flex-start;
   max-width: 1100px;
   margin: 0 auto;
-}
-
-.skills {
   width: 100%;
-  margin: 0;
   padding: 0;
 }
