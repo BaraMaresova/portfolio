@@ -1,0 +1,12 @@
+@import '../scss/colors';
+@import '../scss/typography';
+@import '../scss/variables';
+
+.experiences {
+  width: 97%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  white-space: pre-line;
+  margin: $spacing * 2 auto;
+}

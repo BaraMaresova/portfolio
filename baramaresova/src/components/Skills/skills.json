@@ -1,42 +1,31 @@
 [
   {
     "skill_name": "HTML",
-    "progress": 90,
-    "details": "Front-end"
+    "details": "Semantic HTML 5 elements"
   },
   {
-    "skill_name": "CSS",
-    "progress": 90,
-    "details": "Front-end, Cascading Style Sheets"
+    "skill_name": "CSS a Styled Components",
+    "details": "Responzivita, používání SASS preprocesoru, knihovny Bootstrap a Tailwind CSS, aktuálně používám na velkém projektu Styled Components."
   },
   {
     "skill_name": "JavaScript",
-    "progress": 50,
-    "details": "Front-end"
-  },
-  {
-    "skill_name": "SASS, Bootstrap",
-    "progress": 90,
-    "details": "Front-end, CSS preprocesory a knihovny"
+    "details": "Práce s řetězci a objekty, podmínky, DOM elementy a jejich využití, funkce, události, pole a cykly. Používání JSON a volání API, webpack, funkcionální zpracování dat."
   },
   {
     "skill_name": "React",
-    "progress": 70,
-    "details": "Front-end, javascript framework"
+    "details": "React Hooks (useState, useEffect), React Router, React Context, vytváření komponent, komunikace mezi komponentami."
+  },
+  { "skill_name": "React Native", "details": "Aktuálně vyvíjím vlastní mobilní aplikaci pro iOS, pro navigaci používám React Native Navigation." },
+  {
+    "skill_name": "GIT",
+    "details": "Práce s verzovacím systémem Git, používání větví, code reviews. Projekty a akce an GitHub."
   },
   {
     "skill_name": "UX, UI",
-    "progress": 70,
-    "details": "User Experience a User Interface design. Pro tvorbu prototypů využívám nástroj Figma"
+    "details": "Vytváření vlastních User Experience a User Interface designů. Aktuálně studuji kurz Foundations of User Experience Design od Google."
   },
   {
-    "skill_name": "jQuery",
-    "progress": 50,
-    "details": "Front-end, javascript knihovna"
-  },
-  {
-    "skill_name": "Vektorová grafika",
-    "progress": 40,
-    "details": "K vytváření vlastní grafiky používám nástroje Adobe Fresco, Inkscape a Vectornator"
+    "skill_name": "Grafika",
+    "details": "K vytváření vlastní grafiky používám nástroje Adobe Fresco a Adobe Photoshop."
   }
 ]

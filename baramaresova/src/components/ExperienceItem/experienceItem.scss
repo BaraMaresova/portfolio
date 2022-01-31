@@ -1,0 +1,45 @@
+@import '../../scss/variables';
+@import '../../scss/colors';
+@import '../../scss/typography';
+
+.experienceItem {
+  min-width: 220px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: 1px solid $pink-c;
+  border-radius: 8px;
+  padding: $spacing;
+  background-color: rgba(32, 0, 80, 0.5);
+  margin: 0 $spacing;
+  @media (min-width: 768px) {
+    min-width: 400px;
+  }
+}
+
+.experience {
+  &Name {
+    font-family: $headlines-f;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $pink-c;
+    font-size: 1.1rem;
+  }
+
+  &Date {
+    border-radius: 8px;
+    padding: 8px;
+    margin-right: 8px;
+    font-family: $headlines-f;
+    font-weight: 500;
+    color: $green-c;
+    font-size: 1.1rem;
+  }
+  &Details {
+    max-width: inherit;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+  }
+}

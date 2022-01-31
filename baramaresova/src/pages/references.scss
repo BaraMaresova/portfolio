@@ -1,0 +1,17 @@
+@import '../scss/colors';
+@import '../scss/typography';
+@import '../scss/variables';
+
+.references {
+  width: 97%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  white-space: pre-line;
+  margin: $spacing * 2 auto;
+
+  a {
+    text-decoration: none;
+    color: $green-c;
+  }
+}
