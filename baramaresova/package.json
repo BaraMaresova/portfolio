@@ -16,6 +16,7 @@
     "react-scripts": "5.0.0",
     "react-swipeable-views": "^0.14.0",
     "spacebar-ui": "^0.1.34",
+    "styled-components": "^5.3.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

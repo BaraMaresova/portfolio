@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './header.scss';
 import Navigation from '../Navigation';
 import LanguageSwitch from '../../utils/languages/LanguageSwitch';
+import ThemeSwitch from '../../utils/theme/ThemeSwitch';
 
 export const Header = () => {
   return (
@@ -18,6 +19,7 @@ export const Header = () => {
             <span className="surname">Marešová</span>
           </span>
           <LanguageSwitch />
+          <ThemeSwitch />
         </header>
       </div>
       <Navigation />

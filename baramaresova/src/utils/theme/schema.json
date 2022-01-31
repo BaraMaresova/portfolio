@@ -1,0 +1,16 @@
+{
+  "data": {
+    "space": {
+      "id": "T_1",
+      "name": "Space Theme",
+      "background": "transparent",
+      "textColor": "#fffade"
+    },
+    "light": {
+      "id": "T_2",
+      "name": "Light Theme",
+      "background": "#fffade",
+      "textColor": "#200050"
+    }
+  }
+}
