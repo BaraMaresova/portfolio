@@ -1,18 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './navigation.scss';
+import { useLanguage } from '../context/LanguageContext';
 
 function Navigation() {
+  const { dictionary } = useLanguage();
+
   return (
     <nav className="navigation">
       <Link className="navButton" to="/references">
-        Reference
+        {dictionary.nav.references}
       </Link>
       <Link className="navButton" to="/skills">
-        Dovednosti
+        {dictionary.nav.skills}
       </Link>
       <Link className="navButton" to="/experiences">
-        Zkušenosti
+        {dictionary.nav.experiences}
       </Link>
     </nav>
   );

@@ -8,46 +8,33 @@ import skp from '../images/skpJirkovdraft.png';
 import './references.scss';
 import { Header } from '../components/Header/Header';
 import { Footer } from '../components/Footer/Footer';
+import { useLanguage } from '../context/LanguageContext';
+
+const ref_images = {
+  1: { src: sbkgraphics },
+  2: { src: letokruh },
+  3: { src: dkck },
+  4: { src: skp },
+  5: { src: moninvo_gif },
+};
 
 export const References = () => {
+  const { dictionary } = useLanguage();
+
   return (
     <section>
       <Header />
       <div className="references">
-        <ReferenceItem
-          ref_src={sbkgraphics}
-          ref_name="SpaceBarKeepers"
-          ref_details="Web vlastní značky SpaceBarKeepers, UX design a vlastní grafické prvky."
-          ref_href="https://spacebarkeepers.com"
-          ref_www="spacebarkeepers.com"
-        />
-        <ReferenceItem
-          ref_src={letokruh}
-          ref_name={'Letokruh'}
-          ref_href="https://letokruh.eu/"
-          ref_details="Realizace webu podle UX designu - React šablona pro Wordpress"
-          ref_www="letokruh.eu"
-        />
-
-        <ReferenceItem
-          ref_src={dkck}
-          ref_name="Dámský klub Český Krumlov"
-          ref_href="https://damskyklubck.cz/"
-          ref_details="Realizace webu včetně UX designu."
-          ref_www="damskyklubck.cz"
-        />
-        <ReferenceItem
-          ref_src={skp}
-          ref_name="Sportovní klub karate Hvězda Jirkov"
-          ref_href="https://skphvezdajirkov.cz"
-          ref_details="Realizace webu včetně UX designu a vlastních grafických prvků."
-          ref_www="skphvezdajirkov.cz"
-        />
-        <ReferenceItem
-          ref_src={moninvo_gif}
-          ref_name={'Moninvo'}
-          ref_details="Aplikace na monitorování nákladů, umožňuje nahrání faktur ve formátu pdf, přečte data z faktury a zobrazí je v grafu a tabulce. Projekt získal ocenění Projekt s nejvyšší technickou úrovní během studia Digitální akademie - Web od Czechitas."
-        />
+        {dictionary.references.map((ref) => (
+          <ReferenceItem
+            ref_src={ref_images[ref.ref_key].src}
+            ref_name={ref.ref_name}
+            ref_details={ref.ref_details}
+            ref_href={ref.ref_href}
+            ref_www={ref.ref_www}
+            key={ref.ref_key}
+          />
+        ))}
       </div>
       <Footer />
     </section>

@@ -1,0 +1,109 @@
+{
+  "statementP1": "Jsem front-end developer programující primárně v Reactu. Baví mě vytvářet webové stránky a aplikace od píky, tedy od šedého rámečku ve wireframu až po designové a hlavně funkční tlačítko přepínající například uživatelský jazyk.",
+  "statementP2": "Mým cílem je transformovat své dlouholeté zkušenosti z obchodu a projektů do úspěšných webových stránek. Chci se učit nové věci a posouvat své programovací dovednosti do dalších úrovní.",
+  "nav": {
+    "references": "Reference",
+    "experiences": "Zkušenosti",
+    "skills": "Dovednosti"
+  },
+  "references": [
+    {
+      "ref_name": "SpaceBarKeepers",
+      "ref_details": "Web vlastní značky SpaceBarKeepers, UX design a vlastní grafické prvky.",
+      "ref_href": "https://spacebarkeepers.com",
+      "ref_www": "spacebarkeepers.com",
+      "ref_key": "1"
+    },
+    {
+      "ref_name": "Letokruh",
+      "ref_details": "Realizace webu podle UX designu - React šablona pro Wordpress.",
+      "ref_href": "https://letokruh.eu/",
+      "ref_www": "letokruh.eu",
+      "ref_key": "2"
+    },
+    {
+      "ref_name": "Dámský klub Český Krumlov",
+      "ref_details": "Realizace webu včetně UX designu.",
+      "ref_href": "https://damskyklubck.cz/",
+      "ref_www": "damskyklubck.cz",
+      "ref_key": "3"
+    },
+    {
+      "ref_name": "Sportovní klub karate Hvězda Jirkov",
+      "ref_details": "Realizace webu včetně UX designu a vlastních grafických prvků.",
+      "ref_href": "https://skphvezdajirkov.cz",
+      "ref_www": "skphvezdajirkov.cz",
+      "ref_key": "4"
+    },
+    {
+      "ref_name": "Moninvo",
+      "ref_details": "Aplikace na monitorování nákladů, umožňuje nahrání faktur ve formátu pdf, přečte data z faktury a zobrazí je v grafu a tabulce. Projekt získal ocenění Projekt s nejvyšší technickou úrovní během studia Digitální akademie - Web od Czechitas.",
+      "ref_key": "5"
+    }
+  ],
+  "experiences": [
+    {
+      "exp_date": "2021",
+      "exp_name": "SpaceBarKeepers",
+      "href": "https://spacebarkeepers.com",
+      "exp_details": "Na začátku roku 2021 jsem spoluzaložila SpaceBarKeepers. Naším cílem je vyvíjet webové aplikace na míru a to jak vlastní, tak i na zakázku pro naše klienty."
+    },
+    {
+      "exp_date": "2020",
+      "exp_name": "Czechitas: DA Web",
+      "href": "https://www.czechitas.cz/cs/kalendar-akci/akce/21000/",
+      "exp_details": "Během tohoto intenzivního tříměsíčního kurzu (září - prosinec 2020) jsem nastartovala své vzdělání v oblasti front-end webového vývoje. Zhruba 70% akademie byla zaměřena na vývoj aplikací v Javascriptu (a Reactu), zbývajících 30% na HTML/CSS, UX a další nezbytnosti. Podmínkou pro úspěšné absolvování kurzu bylo mimo jiné vytvoření vlastního projektu ve dvojicích. Můj projekt s názvem Moninvo získal ocenení projektu s nejlepší technickou úrovní."
+    },
+    {
+      "exp_date": "2020",
+      "exp_name": "Čas na změnu",
+      "exp_details": "Během mé rodičovské dovolené nastala koronavirová krize a veškerá má práce na projektu v Booking.com téměř ze dne na den zmizela. Po zevrubné analýze mých dovedností a zájmů jsem se rozhodla změnit kariéru a věnovat se programování, ve kterém jsem se díky studiu Digitální akademie našla."
+    },
+    {
+      "exp_date": "2016 - 2020",
+      "exp_name": "Booking.com",
+      "href": "https://www.booking.com",
+      "exp_details": "V Booking.com jsem dostala prostor rozvíjet kreativní přístupy k  řešení problémů tím, že jsem dostala na starosti projekt rozvoje krátkodobých pronájmů v celé ČR. Díky řízení projektu, aktivní práce s partnery a každodenní práce s daty se mi povedlo projekt dostat na vysokou úroveň a zajistit tím i růst týmu."
+    },
+    {
+      "exp_date": "2011 - 2016",
+      "exp_name": "Hewlett-Packard",
+      "href": "https://www.hpe.com/us/en/home.html",
+      "exp_details": "V Hewlett-Packard (a později v Hewlett-Packard Enterprise) jsem se postupně z asistentských pozic přes projektového koordinátora dostala k account managementu obchodních partnerů společnosti. Díky této pozici jsem se konečně více přiblížila IT a začala budovat obchodnické dovednosti."
+    }
+  ],
+  "skills": [
+    {
+      "skill_name": "HTML",
+      "details": "Semantic HTML 5 elements"
+    },
+    {
+      "skill_name": "CSS a Styled Components",
+      "details": "Responzivita, používání SASS preprocesoru, knihovny Bootstrap a Tailwind CSS, aktuálně používám na velkém projektu Styled Components."
+    },
+    {
+      "skill_name": "JavaScript",
+      "details": "Práce s řetězci a objekty, podmínky, DOM elementy a jejich využití, funkce, události, pole a cykly. Používání JSON a volání API, webpack, funkcionální zpracování dat."
+    },
+    {
+      "skill_name": "React JS",
+      "details": "React Hooks (useState, useEffect), React Router, React Context, vytváření komponent, komunikace mezi komponentami."
+    },
+    {
+      "skill_name": "React Native",
+      "details": "Aktuálně vyvíjím vlastní mobilní aplikaci pro iOS, pro navigaci používám React Native Navigation."
+    },
+    {
+      "skill_name": "GIT",
+      "details": "Práce s verzovacím systémem Git, používání větví, code reviews. Projekty a akce na GitHub."
+    },
+    {
+      "skill_name": "UX, UI",
+      "details": "Vytváření vlastních User Experience a User Interface designů. Aktuálně studuji kurz Foundations of User Experience Design od Google."
+    },
+    {
+      "skill_name": "Grafika",
+      "details": "K vytváření vlastní grafiky používám nástroje Adobe Fresco a Adobe Photoshop."
+    }
+  ]
+}

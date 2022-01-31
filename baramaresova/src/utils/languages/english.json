@@ -1,0 +1,109 @@
+{
+  "statementP1": "I am Front-end developer programming mainly in React JS. I enjoy creating websites and applications from scratch. I mean being able to draw a grey rectangle in wireframe and build out of it a good looking and especially functioning button that can switch between user languages.",
+  "statementP2": "My goal is to transform my many years of experiences in business and project management into successful websites. I want to learn new things and keep taking my programming skills to the next levels.",
+  "nav": {
+    "references": "References",
+    "experiences": "Experiences",
+    "skills": "Skills"
+  },
+  "references": [
+    {
+      "ref_name": "SpaceBarKeepers",
+      "ref_details": "Web of own brand SpaceBarKeepers, UX design and own graphics.",
+      "ref_href": "https://spacebarkeepers.com",
+      "ref_www": "spacebarkeepers.com",
+      "ref_key": "1"
+    },
+    {
+      "ref_name": "Letokruh",
+      "ref_details": "Web realization based on delivered UX design - React template for Wordpress.",
+      "ref_href": "https://letokruh.eu/",
+      "ref_www": "letokruh.eu",
+      "ref_key": "2"
+    },
+    {
+      "ref_name": "Dámský klub Český Krumlov",
+      "ref_details": "Web and UX design.",
+      "ref_href": "https://damskyklubck.cz/",
+      "ref_www": "damskyklubck.cz",
+      "ref_key": "3"
+    },
+    {
+      "ref_name": "Sportovní klub karate Hvězda Jirkov",
+      "ref_details": "Web, UX design and graphics elements.",
+      "ref_href": "https://skphvezdajirkov.cz",
+      "ref_www": "skphvezdajirkov.cz",
+      "ref_key": "4"
+    },
+    {
+      "ref_name": "Moninvo",
+      "ref_details": "Web application that monitores expenses, enables uploading invoices in pdf format, reads data from the invoice and displays them in the graph and chart. Project received an award of the Project with the highest technical level during the study of Digital Academy - Web by Czechitas.",
+      "ref_key": "5"
+    }
+  ],
+  "experiences": [
+    {
+      "exp_date": "2021",
+      "exp_name": "SpaceBarKeepers",
+      "href": "https://spacebarkeepers.com",
+      "exp_details": "At the beginning of 2021 I've co-founded SpaceBarKeepers. Our goal is to develop custom web applications not only for our clients but as well as our own."
+    },
+    {
+      "exp_date": "2020",
+      "exp_name": "Czechitas: DA Web",
+      "href": "https://www.czechitas.cz/cs/kalendar-akci/akce/21000/",
+      "exp_details": "During this intense three month course (Sep - Dec 2020) I launched my education in the front-end development field. Circa 70% of the academy is focused on web application development in Javascript (and React), the rest 30% on HTML/CSS, UX and others. One of the conditions for graduation was to develop own project in couples. Our project called Moninvo received an award of the Project with the highest technical level."
+    },
+    {
+      "exp_date": "2020",
+      "exp_name": "Time for a change",
+      "exp_details": "There was a pandemic during my parental leave which caused that pretty much all the work I`ve done on the project at Booking.com disappeared. After the analysis of my skills and interests I decided to completely change the direction of my career and decided to start programming."
+    },
+    {
+      "exp_date": "2016 - 2020",
+      "exp_name": "Booking.com",
+      "href": "https://www.booking.com",
+      "exp_details": "At Booking.com I've got a chance to work on creative ways on problem solving by being entirely responsible for launch of Booking Home project in Czech Republic. Thanks to managing the project, active work with our business partners and everyday work with data I've managed to move the project to a high level and ensure the growth of the team."
+    },
+    {
+      "exp_date": "2011 - 2016",
+      "exp_name": "Hewlett-Packard",
+      "href": "https://www.hpe.com/us/en/home.html",
+      "exp_details": "At Hewlett-Packard (later Hewlett-Packard Enterprise) I've gradually moved from assistant positions to project coordinator and finally to account management of company's business partners. Thanks to that opportunity I've became closer to IT and started to build my sales skills."
+    }
+  ],
+  "skills": [
+    {
+      "skill_name": "HTML",
+      "details": "Semantic HTML 5 elements"
+    },
+    {
+      "skill_name": "CSS and Styled Components",
+      "details": "Responsive design, using SASS - CSS extension language, Bootstrap and Tailwind CSS libraries, currently also using Styled Components."
+    },
+    {
+      "skill_name": "JavaScript",
+      "details": "Work with arrays and objects, conditionals, DOM elements, writing functions and running functions, events and for cycles. Using JSON and API calling, webpack, methods for managing data (e.g. array.forEach, array.map)."
+    },
+    {
+      "skill_name": "React JS",
+      "details": "React Hooks (useState, useEffect, custom Hooks, useRef), React Router, React Context, creating and using components, communication between components."
+    },
+    {
+      "skill_name": "React Native",
+      "details": "I am currently working on my own mobile app for iOS in React Native, for navigation between screens I use React Native Navigation."
+    },
+    {
+      "skill_name": "GIT",
+      "details": "Work with Git, using branches, code reviews, pull requests. Projects and actions on GitHub."
+    },
+    {
+      "skill_name": "UX, UI",
+      "details": "Creating own UX and UI designs. Currently also studying Foundations of User Experience Design course by Google."
+    },
+    {
+      "skill_name": "Graphics",
+      "details": "I enjoy drawing and making my own graphics elements, I use Adobe Fresco and Adobe Photoshop."
+    }
+  ]
+}

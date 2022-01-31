@@ -5,11 +5,10 @@ export const ReferenceItem = (props) => {
   return (
     <>
       <div className="referenceItem">
-        <img
+        <div
           className="referenceImage"
-          src={props.ref_src}
-          alt="printscreen referenčního webu"
-        />
+          style={{ backgroundImage: `url(${props.ref_src})` }}
+        ></div>
         <h3 className="referenceName">{props.ref_name}</h3>
         <span className="referenceDetails">
           {props.ref_details}
