@@ -3,11 +3,11 @@
 @import '../../scss/typography';
 
 .footer {
-  height: 120px;
   display: flex;
   margin: $spacing/2 auto;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 1200px;
+  text-transform: uppercase;
 
   &_div {
     height: 100%;
@@ -33,14 +33,16 @@
     margin: $spacing/2;
   }
   &_span {
-    font-family: $title-f;
+    font-family: $headlines-f;
+    @media (min-width: 768px) {
+      font-family: $title-f;
+    }
   }
   @media (max-width: 450px) {
-    font-size: 12px;
     height: auto;
   }
   @media (max-width: 768px) {
-    font-size: 14px;
     height: auto;
+    justify-content: space-around;
   }
 }
