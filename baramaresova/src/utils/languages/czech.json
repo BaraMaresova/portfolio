@@ -52,12 +52,12 @@
       "exp_date": "2020",
       "exp_name": "Czechitas: DA Web",
       "href": "https://www.czechitas.cz/cs/kalendar-akci/akce/21000/",
-      "exp_details": "Během tohoto intenzivního tříměsíčního kurzu (září - prosinec 2020) jsem nastartovala své vzdělání v oblasti front-end webového vývoje. Zhruba 70% akademie byla zaměřena na vývoj aplikací v Javascriptu (a Reactu), zbývajících 30% na HTML/CSS, UX a další nezbytnosti. Podmínkou pro úspěšné absolvování kurzu bylo mimo jiné vytvoření vlastního projektu ve dvojicích. Můj projekt s názvem Moninvo získal ocenení projektu s nejlepší technickou úrovní."
+      "exp_details": "Během tohoto intenzivního tříměsíčního kurzu (září - prosinec 2020) jsem nastartovala své vzdělání v oblasti front-end webového vývoje. Zhruba 70% akademie byla zaměřena na vývoj aplikací v Javascriptu (a Reactu), zbývajících 30% na HTML/CSS, UX a další nezbytnosti. Podmínkou pro úspěšné absolvování kurzu bylo mimo jiné vytvoření vlastního projektu ve dvojicích. Můj projekt s názvem Moninvo získal ocenění projektu s nejlepší technickou úrovní."
     },
     {
       "exp_date": "2020",
       "exp_name": "Čas na změnu",
-      "exp_details": "Během mé rodičovské dovolené nastala koronavirová krize a veškerá má práce na projektu v Booking.com téměř ze dne na den zmizela. Po zevrubné analýze mých dovedností a zájmů jsem se rozhodla změnit kariéru a věnovat se programování, ve kterém jsem se díky studiu Digitální akademie našla."
+      "exp_details": "Během mé rodičovské dovolené nastala koronavirová krize a veškerá má práce na projektu v Booking.com téměř ze dne na den zmizela. Po analýze mých dovedností a zájmů jsem se rozhodla změnit kariéru a věnovat se programování, ve kterém jsem se díky studiu Digitální akademie našla."
     },
     {
       "exp_date": "2016 - 2020",
@@ -79,7 +79,7 @@
     },
     {
       "skill_name": "CSS a Styled Components",
-      "details": "Responzivita, používání SASS preprocesoru, knihovny Bootstrap a Tailwind CSS, aktuálně používám na velkém projektu Styled Components."
+      "details": "Responzivita, používání SASS preprocesoru, knihovny Bootstrap a Tailwind CSS, aktuálně používám na projektu také Styled Components."
     },
     {
       "skill_name": "JavaScript",

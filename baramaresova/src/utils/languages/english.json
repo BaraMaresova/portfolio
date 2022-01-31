@@ -1,6 +1,6 @@
 {
-  "statementP1": "I am Front-end developer programming mainly in React JS. I enjoy creating websites and applications from scratch. I mean being able to draw a grey rectangle in wireframe and build out of it a good looking and especially functioning button that can switch between user languages.",
-  "statementP2": "My goal is to transform my many years of experiences in business and project management into successful websites. I want to learn new things and keep taking my programming skills to the next levels.",
+  "statementP1": "I am Front-end developer programming mainly in React JS. I enjoy creating websites and applications from scratch. I like being able to draw a grey rectangle in wireframe and build out of it a good looking and especially functioning button that can e.g. switch between user languages.",
+  "statementP2": "My goal is to transform my many years of experience in business and project management into successful websites. I want to learn new things and keep taking my programming skills to the next levels.",
   "nav": {
     "references": "References",
     "experiences": "Experiences",
@@ -52,7 +52,7 @@
       "exp_date": "2020",
       "exp_name": "Czechitas: DA Web",
       "href": "https://www.czechitas.cz/cs/kalendar-akci/akce/21000/",
-      "exp_details": "During this intense three month course (Sep - Dec 2020) I launched my education in the front-end development field. Circa 70% of the academy is focused on web application development in Javascript (and React), the rest 30% on HTML/CSS, UX and others. One of the conditions for graduation was to develop own project in couples. Our project called Moninvo received an award of the Project with the highest technical level."
+      "exp_details": "During this intense three month course (Sep - Dec 2020) I launched my education in the front-end development field. About 70% of the academy is focused on web application development in Javascript (and React), the rest 30% on HTML/CSS, UX and others. One of the conditions for graduation was to develop own project in couples. Our project called Moninvo received an award of the Project with the highest technical level."
     },
     {
       "exp_date": "2020",
