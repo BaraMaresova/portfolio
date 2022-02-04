@@ -79,7 +79,7 @@
     },
     {
       "skill_name": "CSS and Styled Components",
-      "details": "Responsive design, using SASS - CSS extension language, Bootstrap and Tailwind CSS libraries, currently also using Styled Components."
+      "details": "Responsive design, using SASS and Stylus, Bootstrap and Tailwind CSS libraries, currently also using Styled Components."
     },
     {
       "skill_name": "JavaScript",
